@@ -1,0 +1,80 @@
+.art-area {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    background-color: rgb(214, 199, 184);
+    border-radius: 10px;
+}
+
+.gallery-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    filter: drop-shadow(-8px 8px 0px rgb(6, 46, 42));
+    border-radius: 2px;
+    height: 100px;
+    width: 35%;
+    align-self: center;
+    margin-top: 40px;
+}
+
+.gallery-title {
+    font-family: Satisfy;
+    font-size: 60px;
+    color: rgb(213, 122, 113);
+    display: flex;
+    align-self: center;
+    
+}
+
+.art-lamp-supercontainer {
+    flex-direction: column;
+    width: max-content;
+    margin: 2vh;
+    align-items: center;
+}
+
+.art-lamp-container {
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+    padding: 10px;
+    background-color: black;
+}
+
+.art-lamp-image {
+    max-width: 30vw;
+}
+
+.art-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 30px;
+}
+
+.art-title {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(6, 46, 42);
+}
+
+.art-year {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 4px;
+    color: rgb(6, 46, 42);
+}
+
+.art-author {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 4px;
+    color: rgb(6, 46, 42);
+}

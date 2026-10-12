@@ -1,0 +1,82 @@
+.web-area {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    background-color: rgb(214, 199, 184);
+    border-radius: 10px;
+}
+
+.web-image-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.web-gallery-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    filter: drop-shadow(-8px 8px 0px rgb(6, 46, 42));
+    border-radius: 2px;
+    height: 100px;
+    width: 35%;
+    align-self: center;
+    margin-top: 40px;
+}
+
+.web-gallery-title {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: rgb(213, 122, 113);
+    display: flex;
+    align-self: center;
+}
+
+.web-lamp-supercontainer {
+    width: max-content;
+    margin: 2vh;
+    align-items: center;
+    padding: 2vh;
+}
+
+.web-lamp-container {
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+    padding: 10px;
+    background-color: black;
+}
+
+.web-lamp-image {
+    max-width: 30vw;
+}
+
+.web-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 30px;
+}
+
+.web-title {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(33, 114, 122);
+    margin: 0px;
+}
+
+.web-author {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 4px;
+    color: rgb(6, 46, 42);
+    margin: 0px;
+}
