@@ -1,16 +1,11 @@
 .web-area {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 75vw;
     background-color: rgb(214, 199, 184);
     border-radius: 10px;
-}
-
-.web-image-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    margin-bottom: 15px;
 }
 
 .web-gallery-container {
@@ -21,9 +16,11 @@
     filter: drop-shadow(-8px 8px 0px rgb(6, 46, 42));
     border-radius: 2px;
     height: 100px;
-    width: 35%;
+    
     align-self: center;
     margin-top: 40px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .web-gallery-title {
@@ -35,23 +32,37 @@
     align-self: center;
 }
 
+.web-image-row {
+    width: 73vw;
+    min-height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 10px;
+    margin: 1vw;
+    margin-top: 3vh;
+
+}
+
 .web-lamp-supercontainer {
-    width: max-content;
-    margin: 2vh;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 2vh;
+    padding: 10px;
 }
 
 .web-lamp-container {
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2vh;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2px;
     background-color: black;
 }
 
 .web-lamp-image {
-    max-width: 30vw;
+    max-width: 100%;
+    border: solid 2px rgba(214, 199, 184, 0.3);
 }
 
 .web-info-container {
@@ -60,6 +71,7 @@
     justify-content: center;
     align-items: center;
     margin: 0px;
+    margin-top: 10px;
     height: 30px;
 }
 
@@ -70,6 +82,7 @@
     font-style: italic;
     color: rgb(33, 114, 122);
     margin: 0px;
+    text-align: center;
 }
 
 .web-author {

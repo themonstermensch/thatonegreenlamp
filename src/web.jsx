@@ -11,8 +11,6 @@ function Web() {
     const webLamps = lamps.filter(lamp => {
       return lamp.medium == "web"})
 
-    console.log(webLamps)
-
     return (
       <>
         <section id="top-section">
@@ -24,7 +22,6 @@ function Web() {
                 <div className="web-gallery-title">Web Content</div>
               </div>
               <div className="web-image-row">
-                <div>
                   {webLamps.map(lamp => {
                     return (
                       <div className="web-lamp-supercontainer">
@@ -38,7 +35,6 @@ function Web() {
                       </div>
                     )
                   })}
-                </div>
               </div>
             </div>
           </div>
