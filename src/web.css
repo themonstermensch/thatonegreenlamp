@@ -16,7 +16,6 @@
     filter: drop-shadow(-8px 8px 0px rgb(6, 46, 42));
     border-radius: 2px;
     height: 100px;
-    
     align-self: center;
     margin-top: 40px;
     padding-left: 2%;
@@ -32,14 +31,14 @@
     align-self: center;
 }
 
-.web-image-row {
+.web-image-wrap {
     width: 73vw;
     min-height: 40vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 10px;
-    margin: 1vw;
-    margin-top: 3vh;
+    margin: 2%;
+    margin-bottom: 3%;
 
 }
 

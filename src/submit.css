@@ -15,7 +15,9 @@
     filter: drop-shadow(-8px 8px 0px rgb(6, 46, 42));
     border-radius: 2px;
     margin: 20px;
-    width: 45%;
+    min-width: 45%;
+    padding-left: 3%;
+    padding-right: 3%;
     align-self: center;
 }
 
@@ -62,6 +64,7 @@
 }
 
 .submission-info-container {
+    margin: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;

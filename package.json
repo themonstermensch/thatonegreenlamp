@@ -8,6 +8,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build --nojekyll",
     "dev": "vite",
+    "vercel-build": "npm ci && npm run build",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"

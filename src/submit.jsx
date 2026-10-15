@@ -34,7 +34,6 @@ function Submit() {
                   <img className="missing-poster" src="/src/assets/lamp missing - Copy.png" alt="a missing person's poster, but instead of a person its a bankers lamp. Where contact information would be is a fake phone number and a request to join our discord server."/>
                 </div>
 
-                <div className="submission-info-supercontainer">
                   
                   <div className="submission-info-container">
                     <h4 id="first-sub-info" className="submission-info">Know of a lamp we've missed? Submit it via <a className="submitlink" target="_blank" href="mailto:thatonegreenlamp@gmil.com">email here</a> or join our <a className="submitlink" target="_blank" href="https://discord.gg/3bSgxcV3YK">Discord</a> and let us know!</h4>
@@ -47,7 +46,6 @@ function Submit() {
                     </ul>
                     <h4 className="submission-info">Thank you for lampspotting!</h4>
                   </div>
-                </div>
 
               </div>
 

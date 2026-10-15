@@ -21,7 +21,7 @@ function Web() {
               <div className="web-gallery-container">
                 <div className="web-gallery-title">Web Content</div>
               </div>
-              <div className="web-image-row">
+              <div className="web-image-wrap">
                   {webLamps.map(lamp => {
                     return (
                       <div className="web-lamp-supercontainer">

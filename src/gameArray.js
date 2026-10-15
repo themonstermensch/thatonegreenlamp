@@ -1,5 +1,14 @@
 export const games = [
         {
+			id: 2345074,
+			title: "Agent A: A Puzzle in Disguise",
+			year: 2019,
+			alt: "Agent A: A Puzzle in Disguise",
+			src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_cover_big%2Fco24bn.png&f=1&nofb=1&ipt=0cca620aa42313b1ab2af527b640ebe07cf38072ea664519e9675ae42fec4bec&ipo=images",
+            medium: "game",
+		},
+	
+		{
 			id: 0,
 			title: "Dispatch",
 			year: 2025,
