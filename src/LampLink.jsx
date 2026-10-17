@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 
 let modalLamp = '';
+
 //import { useFetch } from './hooks/useFetch'
 
 function LampLink({lamp, mediaLamps}) {
@@ -28,8 +29,6 @@ function LampLink({lamp, mediaLamps}) {
         };
 
         function openModal(modalLamp){
-            console.log("opening modal for this lamp:")
-            console.log(modalLamp)
             var modal = document.getElementById("myModal");
             let imageID = "sngimg-"+modalLamp.id;
             // Get the image and insert it inside the modal
