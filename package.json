@@ -2,7 +2,6 @@
   "name": "lamp-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://themonstermensch.github.io/thatonegreenlamp",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
