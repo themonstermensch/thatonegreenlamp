@@ -6,6 +6,8 @@ let modalLamp = '';
 
 function LampLink({lamp, mediaLamps}) {
 
+    import lampSRC from {lamp.src}
+
     const ref = useRef(null);
     
     useEffect(() => {
@@ -167,8 +169,8 @@ function LampLink({lamp, mediaLamps}) {
                 <img ref={ref}
                     id={"sngimg-"+lamp.id} 
                     key={lamp.id} 
-                    className="lamp-image" 
-                    src={lamp.src} 
+                    className="lamp-image"
+                    src={lampSRC}
                     alt={lamp.alt}/>
                 <div ref={ref} className="lamp-info-container" id={"infoCo-"+lamp.id}>
                     <h4 className="lamp-info-level">{lamp.level}</h4>
