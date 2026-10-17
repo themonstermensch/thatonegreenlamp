@@ -1,7 +1,7 @@
  import React from 'react';
  import "./headerstyles.css";
 
- import headlamp from './public/assets/lamp-painting.png' 
+ import headlamp from '/public/assets/lamp-painting.png' 
 
    function Header() {
      return (
