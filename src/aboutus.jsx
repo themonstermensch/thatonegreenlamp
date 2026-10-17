@@ -61,7 +61,7 @@ function AboutUs() {
                           
                       </div>
 
-
+                <h6 className="anti-ai-disclosure">This website was made with love by two freaks. Death to AI.</h6> 
                 <a href="https://ko-fi.com/katandrals" target="_blank" className="coffee-request">Buy us a coffee!</a>
               </div>
               

@@ -114,11 +114,20 @@
     align-self: start;
 }
 
+.anti-ai-disclosure {
+    margin: 2px;
+    font-family: "PT Serif Caption", serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(6, 46, 42);
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
 .coffee-request {
     font-family: "PT Serif Caption", serif;
     font-weight: bold;
     font-size: 14px;
     color: rgb(6, 46, 42);
-    margin-top: 5px;
-    padding-top: 5px;
+    margin: 0px;
 }
