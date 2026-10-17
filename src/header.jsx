@@ -7,7 +7,7 @@ import top_lamp from './src/assets/lamp-painting.png'
      return (
      <div className="header">
         <div className="header-decor">
-            <img className="low-poly-rotating-lamp" src="/src/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
+            <img className="low-poly-rotating-lamp" src={top_lamp} alt="a rotating low poly lamp with a green shade."/>
             <a className="headerlink" href="/about">About the lamp</a>
         </div>
         <div className="titleholder">
