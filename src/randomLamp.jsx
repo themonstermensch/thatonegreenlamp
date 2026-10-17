@@ -81,7 +81,9 @@
                 <div className="info-container">
                   <h3 className="informational-title">{chosenLamp.title}</h3>
                   <h3 className="informational-year">({chosenLamp.year})</h3>
-                  <h3 className="informational-year"> - {chosenLamp.author}</h3>
+                </div>
+                <div className="subinfo-container">
+                  <h3 className="informational-author">{chosenLamp.author}</h3>
                 </div>
               </div>
             </div>

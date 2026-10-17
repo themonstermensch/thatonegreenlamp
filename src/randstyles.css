@@ -54,15 +54,15 @@
     font-size: 32px;
     display: flex;
     align-self: flex-start;
+    padding-left: 10px;
     color: rgb(213, 122, 113);
-    padding-left: 5px;
     margin: 0px;
 }
 
 .informational-author {
     font-family: "Barlow Semi Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 32px;
+    font-weight: 500;
+    font-size: 22px;
     display: flex;
     align-self: flex-start;
     color: rgb(213, 122, 113);

@@ -25,12 +25,21 @@
     color: rgb(213, 122, 113);
     display: flex;
     align-self: center;
-    
+}
+
+.art-image-wrap {
+    width: 73vw;
+    min-height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 10px;
+    margin: 2%;
+    margin-bottom: 3%;
+
 }
 
 .art-lamp-supercontainer {
     flex-direction: column;
-    width: max-content;
     margin: 2vh;
     align-items: center;
 }
@@ -55,6 +64,14 @@
     height: 30px;
 }
 
+.art-subinfo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 20px;
+}
+
 .art-title {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 700;
@@ -74,7 +91,7 @@
 .art-author {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     padding-left: 4px;
     color: rgb(6, 46, 42);
 }

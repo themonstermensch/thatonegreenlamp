@@ -5,6 +5,9 @@ import { lamps } from "./lamplist.js"
 import { useParams } from "react-router";
 import './web.css';
 
+import LampLink from "./LampLink.jsx";
+import Modal from "./modal.jsx";
+
 import {useRef, useEffect} from 'react';
 
 function Web() {
@@ -24,10 +27,11 @@ function Web() {
               <div className="web-image-wrap">
                   {webLamps.map(lamp => {
                     return (
-                      <div className="web-lamp-supercontainer">
-                        <div className="web-lamp-container">
-                          <img key={lamp.id} className="web-lamp-image" src={lamp.src} alt={lamp.alt}/>
-                        </div>
+                      <div className="web-content-supercontainer">
+                        <LampLink
+                          lamp={lamp}
+                          mediaLamps={webLamps}
+                          />
                         <div className="web-info-container">
                           <a className="web-title" href={lamp.link}>{lamp.title}</a>
                           <h3 className="web-author">{lamp.author}</h3>
@@ -40,6 +44,7 @@ function Web() {
           </div>
         </section>
         <Footer />
+        <Modal />
       </>
     )
 }

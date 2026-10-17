@@ -55,7 +55,18 @@ function LampLink({lamp, mediaLamps}) {
                 level.innerText = modalLamp.level;
                 level.className = "lamp-info-level";
                 captionContainer.appendChild(level);
+            } else if (modalLamp.medium == "web") {
+                let title = document.createElement("a");
+                title.innerText = modalLamp.title;
+                title.href = modalLamp.link;
+                title.className = "web-modal-title";
 
+                let channel = document.createElement("h3");
+                channel.innerText = modalLamp.author;
+                channel.className = "web-modal-author";
+
+                captionContainer.appendChild(title);
+                captionContainer.appendChild(channel);
             }
             let submission = document.createElement("h3")
             submission.className = "lamp-submitted-by"
@@ -148,18 +159,18 @@ function LampLink({lamp, mediaLamps}) {
         case "tv":
             return(
                 <div className="single-lamp-container">
-                <img ref={ref}
-                    id={"sngimg-"+lamp.id} 
-                    key={lamp.id} 
-                    className="lamp-image" 
-                    src={lamp.src} 
-                    alt={lamp.alt}/>
-                <div ref={ref} className="lamp-info-container" id={"infoCo-"+lamp.id}>
-                    <h4 className="lamp-info-season">{"Season "+lamp.season+" Episode "+lamp.episode}</h4>
-                    <h4 className="lamp-info-epititle">{lamp.episodeTitle}</h4>
-                    <p className="lamp-submitted-by">{"Submitted by "+lamp.submittedBy}</p>
+                    <img ref={ref}
+                        id={"sngimg-"+lamp.id} 
+                        key={lamp.id} 
+                        className="lamp-image" 
+                        src={lamp.src} 
+                        alt={lamp.alt}/>
+                    <div ref={ref} className="lamp-info-container" id={"infoCo-"+lamp.id}>
+                        <h4 className="lamp-info-season">{"Season "+lamp.season+" Episode "+lamp.episode}</h4>
+                        <h4 className="lamp-info-epititle">{lamp.episodeTitle}</h4>
+                        <p className="lamp-submitted-by">{"Submitted by "+lamp.submittedBy}</p>
+                    </div>
                 </div>
-            </div>
             )
         case "game":
             return(
@@ -168,13 +179,41 @@ function LampLink({lamp, mediaLamps}) {
                     id={"sngimg-"+lamp.id} 
                     key={lamp.id} 
                     className="lamp-image" 
-                    src={lamp.src} 
+                    src={lamp.src}
                     alt={lamp.alt}/>
                 <div ref={ref} className="lamp-info-container" id={"infoCo-"+lamp.id}>
                     <h4 className="lamp-info-level">{lamp.level}</h4>
                     <p className="lamp-submitted-by">{"Submitted by "+lamp.submittedBy}</p>
                 </div>
             </div>
+            )
+        case "web":
+            return(
+                    <div className="single-lamp-container">
+                        <img ref={ref}
+                            id={"sngimg-"+lamp.id} 
+                            key={lamp.id} 
+                            className="lamp-image" 
+                            src={lamp.src}
+                            alt={lamp.alt}/>
+                        <div ref={ref} className="lamp-info-container" id={"infoCo-"+lamp.id}>
+                            <p className="lamp-submitted-by">{"Submitted by "+lamp.submittedBy}</p>
+                        </div>
+                    </div>
+            )
+        case "art":
+            return(
+                    <div className="single-lamp-container">
+                        <img ref={ref}
+                            id={"sngimg-"+lamp.id} 
+                            key={lamp.id} 
+                            className="lamp-image" 
+                            src={lamp.src}
+                            alt={lamp.alt}/>
+                        <div ref={ref} className="lamp-info-container" id={"infoCo-"+lamp.id}>
+                            <p className="lamp-submitted-by">{"Submitted by "+lamp.submittedBy}</p>
+                        </div>
+                    </div>
             )
         default: 
             return (

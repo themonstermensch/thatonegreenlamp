@@ -10,6 +10,7 @@ import LampNotFound from "./lampNotFound.jsx";
 import LampLink from "./LampLink.jsx";
 
 import Certification from "./certification.jsx";
+import Modal from "./modal.jsx";
 
 import "./lampMedia.css"
  //import { useFetch } from './hooks/useFetch'
@@ -56,11 +57,11 @@ function LampMedia() {
           <Header />
           <div className="mid-container">
             <NavBar />
-            <Certification 
-              lampNum={filteredLamps.length}
-              medium={filteredLamps[0].medium}
-              />
             <div className="photo-area" id="photo-area">
+              <Certification 
+                lampNum={filteredLamps.length}
+                medium={filteredLamps[0].medium}
+              />
               <div className="media-info-container">
                 <h3 className="lamp-media-informational-title">{mediaTitle}</h3>
                 <h3 className="lamp-media-informational-year">({mediaYear})</h3>
@@ -80,22 +81,7 @@ function LampMedia() {
         </section>
         <Footer />
 
-        <div id="myModal" className="modal">
-          <span className="close" id="close">&times;</span>
-          <div className="modal-image-container">
-
-            <div id="left" className="arrow">&lt;</div>
-            
-            
-            {/* <label forHTML="zoomCheck">
-              <input type="checkbox" id="zoomCheck"/> */}
-              <img className="modal-content" id="img01"/>
-            {/* </label> */}
-            
-            <div id="right" className="arrow">&gt;</div>
-          </div>
-          <div id="caption-container" className="caption-container"></div>
-        </div>
+        <Modal />
 
 
       </>
