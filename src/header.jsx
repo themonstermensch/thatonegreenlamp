@@ -1,6 +1,8 @@
  import React from 'react';
  import "./headerstyles.css";
 
+import top_lamp from './src/assets/lamp-painting.png'
+
    function Header() {
      return (
      <div className="header">
