@@ -62,8 +62,9 @@ function LampLink({lamp, mediaLamps}) {
             submission.className = "lamp-submitted-by"
             submission.innerText = "Submitted by "+ modalLamp.submittedBy;
             captionContainer.appendChild(submission);
-            
 
+            //document.getElementById("zoomCheck").checked = false;
+            
             // Get the <span> element that closes the modal
             var span = document.getElementById("close");
 
