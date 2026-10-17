@@ -16,11 +16,11 @@ function AboutUs() {
             <NavBar />
             <div className="center-area">
               <div className="banner-container">
-                <img className="banner-rotating-lamp" src="/src/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-                <img className="banner-rotating-lamp" src="/src/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-                <img className="banner-rotating-lamp" src="/src/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-                <img className="banner-rotating-lamp" src="/src/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-                <img className="banner-rotating-lamp" src="/src/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
+                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
+                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
+                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
+                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
+                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
               </div>
               <div className="aboutus-title-container">
                 <h3 className="about-title">About us</h3>
@@ -39,7 +39,7 @@ function AboutUs() {
                         </div>
 
                         <div className="bio-image-container">
-                          <img className="bio-profile-image" src="/src/assets/Elephant_Rose.png"/>
+                          <img className="bio-profile-image" src="/assets/Elephant_Rose.png"/>
                         </div>
                           
                       </div>
@@ -48,7 +48,7 @@ function AboutUs() {
                       <div className="bio-container">
 
                         <div className="bio-image-container">
-                          <img className="bio-profile-image" src="/src/assets/ralsprofile.png"/>
+                          <img className="bio-profile-image" src="/assets/ralsprofile.png"/>
                         </div>
 
                         <div className='bio-info-container'>

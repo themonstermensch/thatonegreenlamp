@@ -7,11 +7,11 @@ function Certification({lampNum, medium}) {
       return (<> </>)
     }
     if(medium == "movie") {
-      return (<img className="certification" src="/src/assets/certified movie.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp movie'"/>)
+      return (<img className="certification" src="/assets/certified movie.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp movie'"/>)
     } else if(medium == "tv") {
-          return (<img className="certification" src="/src/assets/certified show.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp show'"/>)
+          return (<img className="certification" src="/assets/certified show.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp show'"/>)
     } else if(medium == "game") {
-          return (<img className="certification" src="/src/assets/certified game.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp game'"/>)
+          return (<img className="certification" src="/assets/certified game.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp game'"/>)
     }
     return (
       <>

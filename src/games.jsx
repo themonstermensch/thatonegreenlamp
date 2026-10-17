@@ -17,7 +17,7 @@ function Games() {
             <div className="poster-area">
               <div className="movie-banner-container">
                 <div className="banner">
-                  <img className="bannerImage" src="src/assets/gamebanner.png"/>
+                  <img className="bannerImage" src="assets/gamebanner.png"/>
                   <h3 className="banner-title">Games</h3>
                 </div>
               </div>

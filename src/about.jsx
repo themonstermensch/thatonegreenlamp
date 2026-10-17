@@ -17,11 +17,11 @@ function About() {
             <NavBar />
             <div className="center-area">
               <div className="banner-container">
-                <img className="banner-rotating-lamp" src="/src/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-                <img className="banner-rotating-lamp" src="/src/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-                <img className="banner-rotating-lamp" src="/src/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-                <img className="banner-rotating-lamp" src="/src/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-                <img className="banner-rotating-lamp" src="/src/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
+                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
+                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
+                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
+                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
+                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
               </div>
               <div className="about-title-container">
                 <h3 className="about-title">About the lamp!</h3>
@@ -39,7 +39,7 @@ function About() {
                 </div>
                 
                 <div className="about-image-container">
-                  <img className="about-lamp-chan" src="/src/assets/lamp-chan-drawing-cropped.png" alt="a shojo manga style drawing featuring a lamp romantically looking directly at the viewer surrounded by roses."/>
+                  <img className="about-lamp-chan" src="/assets/lamp-chan-drawing-cropped.png" alt="a shojo manga style drawing featuring a lamp romantically looking directly at the viewer surrounded by roses."/>
                 </div>
               
               </div>

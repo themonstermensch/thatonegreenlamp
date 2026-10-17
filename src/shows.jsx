@@ -17,7 +17,7 @@ function Shows() {
             <div className="poster-area">
               <div className="movie-banner-container">
                 <div className="banner">
-                  <img className="bannerImage" src="src/assets/showbanner.png"/>
+                  <img className="bannerImage" src="assets/showbanner.png"/>
                   <h3 className="banner-title">Television</h3>
                 </div>
               </div>
