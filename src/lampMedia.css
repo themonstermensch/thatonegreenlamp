@@ -144,7 +144,7 @@
     height: 70%;
 }
 
-.modal-image-container img {
+/* .modal-image-container img {
     transition: transform 0.25s ease;
     cursor: zoom-in;
 }
@@ -156,7 +156,7 @@ input[type=checkbox] {
 input[type=checkbox]:checked ~ label > img {
     transform: scale(2);
     cursor: zoom-out;
-}
+} */
 
 .modal-content {
     border: solid 4px rgb(223, 179, 97);
