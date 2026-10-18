@@ -6,6 +6,15 @@ export const shows = [
 			alt: "Baccano!",
 			src: "https://artworks.thetvdb.com/banners/v4/series/80421/posters/69f754ccbdda8.jpg",
             medium: "tv",
+		}, 
+		
+		{
+			id: 19817263,
+			title: "Be Cool, Scooby-Doo!",
+			year: 2015,
+			alt: "Be Cool, Scooby-Doo!",
+			src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.fanart.tv%2Ffanart%2Fbe-cool-scooby-doo---63a1a0c6100d3.jpg&f=1&nofb=1&ipt=43a2c237b3389c528ec968de74d1ef8d9dc9c80ec8d528b54ab66ed8efca4478&ipo=images",
+            medium: "tv",
 		},
 	
 		{
@@ -50,6 +59,15 @@ export const shows = [
 			year: 2023,
 			alt: "My Adventures with Superman",
 			src: "https://artworks.thetvdb.com/banners/v4/series/403172/posters/6480a1086374a.jpg",
+            medium: "tv",
+		}, 
+		
+		{
+			id: 5345,
+			title: "My Name Is Earl",
+			year: 2005,
+			alt: "My Name Is Earl",
+			src: "https://image.tmdb.org/t/p/original/3peIBWCAkjXZbdqioW46bOOUJou.jpg",
             medium: "tv",
 		},
 
