@@ -947,7 +947,7 @@ export const lamps = [
 			season: 2,
 			episode: 23,
 			episodeTitle: "The Trial",
-			submittedBy: "Joe",
+			submittedBy: "Joe Sondow",
 		}, {
 			id: 1,
 			title: "My Name Is Earl",
@@ -958,7 +958,7 @@ export const lamps = [
 			season: 2,
 			episode: 23,
 			episodeTitle: "The Trial",
-			submittedBy: "Joe",
+			submittedBy: "Joe Sondow",
 		}, {
 			id: 2,
 			title: "My Name Is Earl",
@@ -969,7 +969,7 @@ export const lamps = [
 			season: 2,
 			episode: 23,
 			episodeTitle: "The Trial",
-			submittedBy: "Joe",
+			submittedBy: "Joe Sondow",
 		}, {
 			id: 3,
 			title: "My Name Is Earl",
@@ -980,7 +980,7 @@ export const lamps = [
 			season: 2,
 			episode: 23,
 			episodeTitle: "The Trial",
-			submittedBy: "Joe",
+			submittedBy: "Joe Sondow",
 		}, {
 			id: 4,
 			title: "My Name Is Earl",
@@ -991,7 +991,7 @@ export const lamps = [
 			season: 2,
 			episode: 23,
 			episodeTitle: "The Trial",
-			submittedBy: "Joe",
+			submittedBy: "Joe Sondow",
 		},
 
 		{
