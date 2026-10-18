@@ -7,6 +7,15 @@ export const games = [
 			src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_cover_big%2Fco24bn.png&f=1&nofb=1&ipt=0cca620aa42313b1ab2af527b640ebe07cf38072ea664519e9675ae42fec4bec&ipo=images",
             medium: "game",
 		},
+
+		{
+			id: 23234554,
+			title: "Control",
+			year: 2019,
+			alt: "Control",
+			src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BOGZlZmZmNjYtNWJkNy00MDY4LWI4ZWMtOGM2ZjVmYjM3M2ZlXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg&f=1&nofb=1&ipt=b831e8f2b22d0a4126831e6545078dc714240f92ad441fad82d7b3d5d8908708&ipo=images",
+            medium: "game",
+		},
 	
 		{
 			id: 0,

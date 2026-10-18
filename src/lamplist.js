@@ -1119,6 +1119,62 @@ export const lamps = [
 			submittedBy: "Kat",
 		},
 
+		{
+			id: 0,
+			title: "Control",
+			year: 2019,
+			alt: "A starkly lit office with an executive sitting at a desk with a green bankers lamp.",
+			src: "/assets/Games/Control (2019)/Control (2019) intro cinematic [1].jpg",
+            medium: "game",
+			level: "Intro Cinematic",
+			submittedBy: "Kat",
+		}, {
+			id: 1,
+			title: "Control",
+			year: 2019,
+			alt: "A lit green bankers lamp sits on a business desk that's been splattered with blood.",
+			src: "/assets/Games/Control (2019)/Control (2019) Welcome to the Oldest House [1].jpg",
+            medium: "game",
+			level: "Welcome to the Oldest House",
+			submittedBy: "Kat",
+		}, {
+			id: 2,
+			title: "Control",
+			year: 2019,
+			alt: "An empty, fluorescent-lit office with rows of desks, each featuring a green bankers lamp.",
+			src: "/assets/Games/Control (2019)/Control (2019) Welcome to the Oldest House [2].jpg",
+            medium: "game",
+			level: "Welcome to the Oldest House",
+			submittedBy: "Kat",
+		}, {
+			id: 3,
+			title: "Control",
+			year: 2019,
+			alt: "A standard desk with a typewriter, an american flag, and a green bankers lamp.",
+			src: "/assets/Games/Control (2019)/Control (2019) Welcome to the Oldest House [3].jpg",
+            medium: "game",
+			level: "Welcome to the Oldest House",
+			submittedBy: "Kat",
+		}, {
+			id: 4,
+			title: "Control",
+			year: 2019,
+			alt: "A desk viewed from above with folders, records, a phone, and a green bankers lamp.",
+			src: "/assets/Games/Control (2019)/Control (2019) Welcome to the Oldest House [4].jpg",
+            medium: "game",
+			level: "Welcome to the Oldest House",
+			submittedBy: "Kat",
+		}, {
+			id: 5,
+			title: "Control",
+			year: 2019,
+			alt: "An office desk in the dark lit by a green bankers lamp.",
+			src: "/assets/Games/Control (2019)/Control (2019) Welcome to the Oldest House [5].jpg",
+            medium: "game",
+			level: "Welcome to the Oldest House",
+			submittedBy: "Kat",
+		}, 
+
 
 
 		{
