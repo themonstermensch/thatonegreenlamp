@@ -53,11 +53,7 @@ function LampMedia() {
     // <img key={lamp.id} className="lamp-image" src={lamp.src} alt={lamp.alt}/>
     return (
       <>
-        <section id="top-section">
-          <Header />
-          <div className="mid-container">
-            <NavBar />
-            <div className="photo-area" id="photo-area">
+            <div className="ultracontainer" id="photo-area">
               <Certification 
                 lampNum={filteredLamps.length}
                 medium={filteredLamps[0].medium}
@@ -77,13 +73,7 @@ function LampMedia() {
                 })}
               </div>
             </div>
-          </div>
-        </section>
-        <Footer />
-
         <Modal />
-
-
       </>
     );
   }

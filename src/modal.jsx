@@ -8,14 +8,14 @@ function Modal() {
           <span className="close" id="close">&times;</span>
           <div className="modal-image-container">
 
-            <div id="left" className="arrow">&lt;</div>
+            <div id="left" className="arrow pointer">&lt;</div>
             
             {/* <label forHTML="zoomCheck">
               <input type="checkbox" id="zoomCheck"/> */}
               <img className="modal-content" id="img01"/>
             {/* </label> */}
             
-            <div id="right" className="arrow">&gt;</div>
+            <div id="right" className="arrow pointer">&gt;</div>
           </div>
           <div id="caption-container" className="caption-container"></div>
         </div>

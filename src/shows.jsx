@@ -10,10 +10,6 @@ import {useRef, useEffect} from 'react';
 function Shows() {
     return (
       <>
-        <section id="top-section">
-          <Header />
-          <div className="mid-container">
-            <NavBar />
             <div className="poster-area">
               <div className="movie-banner-container">
                 <div className="banner">
@@ -29,12 +25,8 @@ function Shows() {
                       />
                   )
                 })}
-
               </div>
             </div>
-          </div>
-        </section>
-        <Footer />
       </>
     )
 }

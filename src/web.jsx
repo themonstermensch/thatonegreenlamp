@@ -16,11 +16,7 @@ function Web() {
 
     return (
       <>
-        <section id="top-section">
-          <Header />
-          <div className="mid-container">
-            <NavBar />
-            <div className="web-area">
+            <div className="ultracontainer">
               <div className="web-gallery-container">
                 <div className="web-gallery-title">Web Content</div>
               </div>
@@ -41,9 +37,6 @@ function Web() {
                   })}
               </div>
             </div>
-          </div>
-        </section>
-        <Footer />
         <Modal />
       </>
     )

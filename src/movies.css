@@ -1,17 +1,12 @@
 .poster-area {
     display: inline;
     justify-content: left;
-    width: 75vw;
     background-color: rgb(214, 199, 184);
     border-radius: 10px;
-
-    float: left;
-    position: relative;
+    width: 95%;
 }
 
-
-
-.movie-banner-container {
+.poster-banner-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +14,7 @@
     min-height: 140px;
 }
 
-.banner {
+.poster-banner {
     position: relative;
     display: flex;
     align-self: center;
@@ -29,15 +24,16 @@
     width: 600px;
 }
 
-.bannerImage {
+.poster-bannerImage {
     position: absolute;
     height: 100px;
     width: 600px;
+    max-width: 65vw;
     border-radius: 10px;
     border: solid 3px rgb(223, 179, 97);
 }
 
-.banner-title {
+.poster-banner-title {
     position: absolute;
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 700;
@@ -46,7 +42,7 @@
     color: rgb(223, 179, 97);
 }
 
-.image-row {
+.poster-wrap {
     /* abemassry's solution */
     display: grid;
     grid-template-columns: repeat(auto-fill, 135px);
@@ -58,12 +54,36 @@
     margin-top: 3vh;
 }
 
+.mobile-poster-wrap {
+    /* abemassry's solution */
+    display: grid;
+    grid-template-columns: repeat(3, 135px);
+    align-items: center;
+    justify-content: space-between;
+    /* end solution */
+    margin: 2vw;
+    margin-top: 3vh;
+}
+
 .posterContainer {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     height: 200px;
     width: 135px;
+
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mobile-posterContainer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 27vw;
+    height: 40vw;
 
     margin-bottom: 15px;
     align-items: center;
@@ -82,6 +102,17 @@
     opacity: 1.0;
 }
 
+.mobile-poster {
+    position: absolute; 
+    display: inline-block;
+    width: 27vw;
+    height: 40vw;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(6, 46, 42);
+    opacity: 1.0;
+}
+
 .infoContainer {
     display: flex;
     flex-direction: column;
@@ -90,6 +121,18 @@
     position: absolute;
     width: 135px;
     height: 200px;
+    text-align: center;
+    opacity: 0.0;
+}
+
+.mobile-infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 27vw;
+    height: 40vw;
     text-align: center;
     opacity: 0.0;
 }

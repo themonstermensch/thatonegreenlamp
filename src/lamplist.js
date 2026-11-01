@@ -39,6 +39,17 @@ export const lamps = [
 
 		{
 			id: 0,
+			title: "Bud Abbott and Lou Costello Meet Frankenstein",
+			year: 1948,
+			alt: "A black and white shot. Wilbur (Lou Costello) lies on an operating table, looking panicked, as the Wolfman (Lon Chaney Jr.) pushes it forward. Behind them is a curved bankers lamp on some machinery.",
+			src: "/assets/Movies/Bud Abbott and Lou Costello Meet Frankenstein (1948) [1].png",
+            medium: "movie",
+			author: "",
+			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
 			title: "The Color of Money",
 			year: 1986,
 			alt: "Eddie (Paul Newman) sits on a barstool next to an open magazine with a green bankers lamp on the page.",
@@ -58,6 +69,18 @@ export const lamps = [
 			author: "",
 			submittedBy: "Kat",
 		},
+
+		{
+			id: 0,
+			title: "The Cycle",
+			year: 2026,
+			alt: "A silhouette stands alone in a backlit room. A lit green bankers lamp sits on a desk against the wall.",
+			src: "/assets/Movies/The Cycle (2026) [1].png",
+            medium: "movie",
+			author: "",
+			submittedBy: "Rhys",
+		},
+
 
 		{
 			id: 0,
@@ -81,7 +104,7 @@ export const lamps = [
 			id: 2,
 			title: "D.E.B.S.",
 			year: 2004,
-			alt: "Amy (Sara Foster) looking ready to kiss Lucy (Jordana Brewster) with a bankers lamp sitting to her left.",
+			alt: "Amy (Sara Foster) looking ready to kiss Lucy (Jordana Brewster) with a bankers lamp sitting behind her.",
 			src: "/assets/Movies/D.E.B.S. (2004) [4].png",
             medium: "movie",
 			author: "",
@@ -112,6 +135,26 @@ export const lamps = [
 			year: 1944,
 			alt: "Black and white shot of Walter (Fred MacMurray) sitting at a desk with a bankers lamp. He's very sweaty and holding a phone to his chest.",
 			src: "/assets/Movies/Double Indemnity (1944) [3].png",
+            medium: "movie",
+			author: "",
+			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
+			title: "Dracula",
+			year: 1931,
+			alt: "Van Helsing (Edward Van Sloan) lectures Renfield (Dwight Frye) next to a desk with a bankers lamp.",
+			src: "/assets/Movies/Dracula (1931) [1].png",
+            medium: "movie",
+			author: "",
+			submittedBy: "Kat",
+		}, {
+			id: 1,
+			title: "Dracula",
+			year: 1931,
+			alt: "Two nurses look concerned at a figure just off-screen. The eyeline makes it look like they're looking at a bankers lamp on the desk beside them.",
+			src: "/assets/Movies/Dracula (1931) [2].png",
             medium: "movie",
 			author: "",
 			submittedBy: "Kat",
@@ -199,6 +242,17 @@ export const lamps = [
 
 		{
 			id: 0,
+			title: "In the Mouth of Madness",
+			year: 1994,
+			alt: "John Trent (Sam Neill) clutches the shoulders of Mr. Paul (Peter Jason). Robinson (Bernie Casey) watches from behind a desk with a green bankers lamp.",
+			src: "/assets/Movies/In the Mouth of Madness (1994) [1].png",
+            medium: "movie",
+			author: "",
+			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
 			title: "Indiana Jones and the Last Crusade",
 			year: 1989,
 			alt: "Indiana (Harrison Ford), Marcus (Denholm Elliott), and Elsa (Alison Doody) stare up at a stained glass window. A green bankers lamp rests at the edge of frame.",
@@ -210,8 +264,19 @@ export const lamps = [
 			id: 1,
 			title: "Indiana Jones and the Last Crusade",
 			year: 1989,
-			alt: "A mustached old man sits at an old cluttered desk flanked by green bankers lamps.",
+			alt: "A mustachioed old man sits at an old cluttered desk flanked by green bankers lamps.",
 			src: "/assets/Movies/Indiana Jones and the Last Crusade (1989) [2].png",
+            medium: "movie",
+			author: "",
+			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
+			title: "The Invisible Man",
+			year: 1933,
+			alt: "Black and white shot of an old man man speaking to a police officer inside the station. In the background a bankers lamp can be spotted.",
+			src: "/assets/Movies/The Invisible Man (1933) [2].png",
             medium: "movie",
 			author: "",
 			submittedBy: "Kat",
@@ -582,6 +647,17 @@ export const lamps = [
             medium: "movie",
 			author: "",
 			submittedBy: "Kat",
+		},
+		
+		{
+			id: 0,
+			title: "Wendell & Wild",
+			year: 2021,
+			alt: "Two nuns play a single accordion behind a desk with a green bankers lamp.",
+			src: "/assets/Movies/Wendell & Wild (2022) [1].png",
+            medium: "movie",
+			author: "",
+			submittedBy: "Kat",
 		}, 
 		
 		{
@@ -590,15 +666,6 @@ export const lamps = [
 			year: 2014,
 			alt: "Andrew (Miles Teller) walks through a hallway with uniform greeb bankers lamp sitting on desks.",
 			src: "/assets/Movies/Whiplash (2014) [1].png",
-            medium: "movie",
-			author: "",
-			submittedBy: "Kat",
-		}, {
-			id: 1,
-			title: "Whiplash",
-			year: 2014,
-			alt: "Andrew (Miles Teller) looks down. A green bankers lamp sits out of focus in the background.",
-			src: "/assets/Movies/Whiplash (2014) [2].png",
             medium: "movie",
 			author: "",
 			submittedBy: "Kat",
@@ -803,7 +870,7 @@ export const lamps = [
 			id: 2,
 			title: "Ghost in the Shell",
 			year: 2026,
-			alt: "On a monitor a bureaucrat sitting at a desk with a green bankers lamp punches himself deeply in the face.",
+			alt: "On a monitor, a bureaucrat sitting at a desk with a green bankers lamp punches himself forcefully in the face.",
 			src: "/assets/TV/Ghost in the Shell (2026) S01E01 [3].png",
             medium: "tv",
 			season: 1,
@@ -1053,6 +1120,41 @@ export const lamps = [
 
 		{
 			id: 0,
+			title: "Reacher",
+			year: 2022,
+			alt: "A library computer with an article pulled up next to a lit green bankers lamp.",
+			src: "/assets/TV/Reacher (2022) S04E01 City of Brotherly Love [1].png",
+            medium: "tv",
+			season: 4,
+			episode: 1,
+			episodeTitle: "City of Brotherly Love",
+			submittedBy: "abemassry",
+		}, {
+			id: 1,
+			title: "Reacher",
+			year: 2022,
+			alt: "Jack Reacher (Alan Ritchson) looks at library stacks. Behind him are desks with lit green bankers lamps.",
+			src: "/assets/TV/Reacher (2022) S04E01 City of Brotherly Love [2].png",
+            medium: "tv",
+			season: 4,
+			episode: 1,
+			episodeTitle: "City of Brotherly Love",
+			submittedBy: "abemassry",
+		}, {
+			id: 2,
+			title: "Reacher",
+			year: 2022,
+			alt: "Two figures slide across a desk with a lit green bankers lamp in a fight.",
+			src: "/assets/TV/Reacher (2022) S04E01 City of Brotherly Love [3].png",
+            medium: "tv",
+			season: 4,
+			episode: 1,
+			episodeTitle: "City of Brotherly Love",
+			submittedBy: "abemassry",
+		}, 
+
+		{
+			id: 0,
 			title: "Scooby-Doo! Mystery Incorporated",
 			year: 2010,
 			alt: "Daphne Blake speaking to someone who is inside a jail cell. There is a lit green bankers lamp behind Daphne's left shoulder.",
@@ -1200,6 +1302,41 @@ export const lamps = [
 			episode: 12,
 			episodeTitle: "Bart Gets Famous",
 			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
+			title: "VisionQuest",
+			year: 2026,
+			alt: "A cybersecurity bot (Jamie Pouw) points toward the camera. Vision (Paul Bettany) and Ultron (James Spader) stand on the other side of a desk with a green bankers lamp.",
+			src: "/assets/TV/VisionQuest (2026) [1].png",
+            medium: "tv",
+			season: 1,
+			episode: 4,
+			episodeTitle: "Malware",
+			submittedBy: "Joe Sondow",
+		}, {
+			id: 1,
+			title: "VisionQuest",
+			year: 2026,
+			alt: "Vision (Paul Bettany) and Ultron (James Spader) look at a cybersecurity bot behind a desk. A green bankers lamp sits right next to the camera.",
+			src: "/assets/TV/VisionQuest (2026) [3].png",
+            medium: "tv",
+			season: 1,
+			episode: 4,
+			episodeTitle: "Malware",
+			submittedBy: "Joe Sondow",
+		}, {
+			id: 2,
+			title: "VisionQuest",
+			year: 2026,
+			alt: "Vision (Paul Bettany) and Ultron (James Spader) look at a cybersecurity bot behind a desk with a green bankers lamp.",
+			src: "/assets/TV/VisionQuest (2026) [4].png",
+            medium: "tv",
+			season: 1,
+			episode: 4,
+			episodeTitle: "Malware",
+			submittedBy: "Joe Sondow",
 		},
 
 		{
@@ -1830,6 +1967,26 @@ export const lamps = [
 
 		{
 			id: 0,
+			title: "Nancy Drew® Midnight in Salem",
+			year: 2019,
+			alt: "Judge Danforth and Dierdre Shannon stand in an office next to a desk with a green bankers lamp.",
+			src: "/assets/Games/Nancy Drew Midnight in Salem (2019) [1].png",
+            medium: "game",
+			level: "",
+			submittedBy: "Salt",
+		}, {
+			id: 1,
+			title: "Nancy Drew® Midnight in Salem",
+			year: 2019,
+			alt: "Teegan Parry stands behind a museum desk which has a green bankers lamp.",
+			src: "/assets/Games/Nancy Drew Midnight in Salem (2019) [2].png",
+            medium: "game",
+			level: "",
+			submittedBy: "Salt",
+		},
+
+		{
+			id: 0,
 			title: "Nancy Drew® Secret of the Old Clock",
 			year: 2005,
 			alt: "A green bankers lamp on a desk in an office. Three books sit in front of the lamp, with Shakespeare's A Midsummer Night's Dream in front. A full bookshelf is behind the desk, as well as a framed photo of a smiling man in a hat atop a bureau.",
@@ -1895,6 +2052,18 @@ export const lamps = [
 			link: "https://www.youtube.com/watch?v=4WwrjXE3_QM",
 			submittedBy: "Kat",
 		},
+
+		{
+			id: 32,
+			title: "The Restricted Index Trailer",
+			year: 2026,
+			alt: "A uniformed person stands before a prison library desk lit by a stylized green bankers lamp.",
+			src: "/assets/Web/The Restricted Index [1].jpg",
+			medium: "web",
+			author: "Ursa Minus",
+			link: "https://store.steampowered.com/app/4499010/The_Restricted_Index/",
+			submittedBy: "jerby",
+		}, 
 
 		{
 			id: 0,

@@ -10,10 +10,6 @@ import {useRef, useEffect} from 'react';
 function Games() {
     return (
       <>
-        <section id="top-section">
-          <Header />
-          <div className="mid-container">
-            <NavBar />
             <div className="poster-area">
               <div className="movie-banner-container">
                 <div className="banner">
@@ -32,9 +28,6 @@ function Games() {
 
               </div>
             </div>
-          </div>
-        </section>
-        <Footer />
       </>
     )
 }

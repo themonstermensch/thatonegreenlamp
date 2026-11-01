@@ -14,15 +14,9 @@ function Art() {
     const artLamps = lamps.filter(lamp => {
       return lamp.medium == "art"})
 
-    console.log(artLamps)
-
     return (
       <>
-        <section id="top-section">
-          <Header />
-          <div className="mid-container">
-            <NavBar />
-            <div className="art-area">
+            <div className="ultracontainer">
               <div className="gallery-title-container">
                 <div className="gallery-title">Art Gallery</div>
               </div>
@@ -48,9 +42,6 @@ function Art() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        <Footer />
         <Modal />
       </>
     )

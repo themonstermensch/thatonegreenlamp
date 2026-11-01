@@ -60,7 +60,25 @@ function PosterLink({movie}) {
         };
     }, []);
 
-    return (<div className="posterContainer">
+    if(self.innerHeight > self.innerWidth) {
+        return (
+            <div className="mobile-posterContainer">
+                <img ref={ref}
+                className="mobile-poster" 
+                key={movie.id} 
+                id={"poster-"+movie.id} 
+                src={movie.src} 
+                alt={movie.alt}
+                      />
+                <div ref={ref} className="mobile-infoContainer" id={"infoCo-"+movie.id}>
+                    <p className="mediaTitle">{movie.title}</p>
+                    <p className="mediaYear">{"("+movie.year+")"}</p>
+                </div>
+            </div>
+    );
+    } else {
+        return (
+            <div className="posterContainer">
                 <img ref={ref}
                 className="poster" 
                 key={movie.id} 
@@ -74,6 +92,8 @@ function PosterLink({movie}) {
                 </div>
             </div>
     );
+    }
+    
 };
 
 export default PosterLink

@@ -18,7 +18,7 @@
 /* Modal Content (image) */
 .modal-image-container {
     display: flex;
-    margin: 20px;
+    margin: 3vh;
     height: 70%;
 }
 
@@ -50,7 +50,6 @@ input[type=checkbox]:checked ~ label > img {
     width: 80%;
     max-width: 700px;
     color: #ccc;
-    padding: 5px 0;
 
 }
 
@@ -66,8 +65,8 @@ input[type=checkbox]:checked ~ label > img {
     text-align: center;
 }
 
-.arrow:hover,
-.arrow:focus {
+.pointer:hover,
+.pointer:focus {
   color: rgb(223, 179, 97);
   text-decoration: none;
   cursor: pointer;

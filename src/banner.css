@@ -1,0 +1,11 @@
+.banner-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 73vw;
+    border: solid 1px red;
+}
+
+.banner-rotating-lamp {
+    max-height: 12vh;
+    border: solid 1px blue;
+}

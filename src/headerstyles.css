@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(27, 69, 63);
-    min-height: 120vh;
+    
     width: 100vw;
     padding-bottom: 4vh;
 }
@@ -15,15 +15,35 @@
     width: 80%;
 }
 
+.mobile-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-height: 20vh;
+}
+
 .header-decor {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
+}
+
+.mobile-header-decor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
 }
 
 .low-poly-rotating-lamp {
     display: flex;
-    width: 30vh;
+    max-width: 13.25vw;
+    max-height: 30vh;
+
 }
 
 .titleholder {
@@ -32,19 +52,55 @@
     margin: auto;
 }
 
+.mobile-titleholder {
+    display: flex;
+    align-items: center;
+    margin: 2vw;
+}
+
 .title {
     display: flex;
     text-align: center;
-    font-size: 140px;
+    overflow: visible;
+    
     font-family: Satisfy;
     color: rgb(223, 179, 97);
     text-decoration: none;
     max-height: 40vh;
+
+    font-size: 14vw;
+}
+
+.mobile-title {
+    display: flex;
+    text-align: center;
+    overflow: visible;
+    
+    font-family: Satisfy;
+    color: rgb(223, 179, 97);
+    text-decoration: none;
+    max-height: 20vh;
+
+    font-size: 12vw;
 }
 
 .headerlink {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-family: "PT Serif Caption", serif;
     font-weight: 300;
     font-size: 18px;
     color: rgb(120, 175, 123);
+}
+
+.mobile-headerlink {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "PT Serif Caption", serif;
+    font-weight: 300;
+    font-size: 2.25vw;
+    color: rgb(120, 175, 123);
+    max-height: 20%;
 }

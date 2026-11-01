@@ -1,8 +1,8 @@
-import React from 'react';
-
 import Header from './header.jsx';
 import NavBar from './navbar.jsx';
 import Footer from './footer.jsx';
+
+import Banner from './banner.jsx';
 
 import './submit.css';
  //import { useFetch } from './hooks/useFetch'
@@ -11,19 +11,8 @@ function Submit() {
     
     return (
       <>
-        <section id="top-section">
-          <Header />
-          <div className="mid-container">
-            <NavBar />
             <div className="submission-area" id="submission-area">
-              <div className="banner-container">
-                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-                <img className="banner-rotating-lamp" src="/assets/the lamp transparent slow.gif" alt="a rotating low poly lamp with a green shade."/>
-              </div>
-
+              <Banner />
               <div className="submit-title-container">
                     <h2 className="submit-title">Submit a lamp!</h2>
                   </div>
@@ -50,9 +39,6 @@ function Submit() {
               </div>
 
             </div>
-          </div>
-        </section>
-        <Footer />
       </>
     )
     

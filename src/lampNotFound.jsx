@@ -12,10 +12,6 @@ function LampNotFound() {
     
     return (
       <>
-        <section id="top-section">
-          <Header />
-          <div className="mid-container">
-            <NavBar />
             <div className="photo-area" id="photo-area">
               <div className="fzf-container">
                 <img className="fzf-image" src={placeholder_lamp} alt="A digital painting of a green bankers lamp"/>
@@ -27,9 +23,6 @@ function LampNotFound() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        <Footer />
       </>
     )
     

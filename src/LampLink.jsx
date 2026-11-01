@@ -28,12 +28,27 @@ function LampLink({lamp, mediaLamps}) {
             info.style.opacity = 0.0;
         };
 
+        function moveRight() {
+                let newLamp = "";
+                for(let x = 0; x < mediaLamps.length; x++) {
+                    if (modalLamp.id == mediaLamps[x].id) {
+                        if(x == mediaLamps.length-1) { 
+                            newLamp = mediaLamps[0];
+                        } else {
+                            newLamp = mediaLamps[x+1]
+                        }
+                    }
+                }
+                modalLamp = newLamp;
+                openModal(modalLamp)
+            }
+
         function openModal(modalLamp){
             var modal = document.getElementById("myModal");
             let imageID = "sngimg-"+modalLamp.id;
             // Get the image and insert it inside the modal
             var img = document.getElementById(imageID);
-            //console.log(img);
+
             var modalImg = document.getElementById("img01");
             var captionContainer = document.getElementById("caption-container");
             captionContainer.innerHTML = "" 
@@ -88,18 +103,38 @@ function LampLink({lamp, mediaLamps}) {
             // Arrows to move through images
             var right = document.getElementById("right");
             var left = document.getElementById("left");
+
             if(mediaLamps.length == 1) {
                 right.remove();
                 left.remove();
+            } else if (mediaLamps.indexOf(modalLamp) == 0) {
+                left.style.opacity = 0.0;
+                left.classList.remove("pointer")
+                right.style.opacity = 1.0;
+                right.className = "arrow pointer"
+            } else if (mediaLamps.indexOf(modalLamp) == mediaLamps.length-1) {
+                right.style.opacity = 0.0;
+                right.classList.remove("pointer")
+                left.style.opacity = 1.0;
+                left.className = "arrow pointer"
+            } else {
+                left.style.opacity = 1.0;
+                right.style.opacity = 1.0;
+                left.className = "arrow pointer"
+                right.className = "arrow pointer"
             }
+            
+
             right.onclick = function() {
                 let newLamp = "";
                 for(let x = 0; x < mediaLamps.length; x++) {
                     if (modalLamp.id == mediaLamps[x].id) {
                         if(x == mediaLamps.length-1) { 
+                            console.log(mediaLamps[0])
                             newLamp = mediaLamps[0];
                         } else {
                             newLamp = mediaLamps[x+1]
+                            console.log(mediaLamps[x+1])
                         }
                     }
                 }
@@ -126,11 +161,40 @@ function LampLink({lamp, mediaLamps}) {
 
             
         }
+
+        document.addEventListener("keyup", function(e) {
+                if (e.keyCode === 37) {
+                    console.log("left")
+                    for(let x = 0; x < mediaLamps.length; x++) {
+                        if (modalLamp.id == mediaLamps[x].id) {
+                            if(x == 0) { 
+                                modalLamp = mediaLamps[mediaLamps.length-1];
+                            } else {
+                                modalLamp = mediaLamps[x-1]
+                            }
+                        }
+                    }
+                    openModal(modalLamp)
+                };   // left
+                if (e.keyCode === 39) {
+                    console.log("right")
+                    let newLamp = "";
+                    for(let x = 0; x < mediaLamps.length; x++) {
+                        if (modalLamp.id == mediaLamps[x].id) {
+                            if(x == mediaLamps.length-1) { 
+                                newLamp = mediaLamps[0];
+                            } else {
+                                newLamp = mediaLamps[x+1]
+                            }
+                        }
+                    }
+                    modalLamp = newLamp;
+                    openModal(modalLamp)
+                };   // right
+            });
         
         const handleClick = event => {
             //window.open(lamp.src)
-            console.log("all lamps")
-            console.log(mediaLamps)
             modalLamp = lamp
             openModal(modalLamp)
         };

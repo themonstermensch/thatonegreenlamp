@@ -8,20 +8,16 @@ import PosterLink from './posterLink.jsx'
 import {useRef, useEffect} from 'react';
 
 function Movies() {
-    return (
-      <>
-        <section id="top-section">
-          <Header />
-          <div className="mid-container">
-            <NavBar />
+    if(self.innerHeight > self.innerWidth) {
+        return(
             <div className="poster-area">
-              <div className="movie-banner-container">
-                <div className="banner">
-                  <img className="bannerImage" src="assets/moviebanner.png"/>
-                  <h3 className="banner-title">Movies</h3>
+              <div className="poster-banner-container">
+                <div className="poster-banner">
+                  <img className="poster-bannerImage" src="assets/moviebanner.png"/>
+                  <h3 className="poster-banner-title">Movies</h3>
                 </div>
               </div>
-              <div className="image-row">
+              <div className="mobile-poster-wrap">
                 {movies.map(movie => {
                   return(
                       <PosterLink 
@@ -29,14 +25,32 @@ function Movies() {
                       />
                   )
                 })}
-
               </div>
             </div>
-          </div>
-        </section>
-        <Footer />
-      </>
-    )
+        )
+    } else {
+        return (
+          <div className="poster-area">
+                <div className="poster-banner-container">
+                  <div className="poster-banner">
+                    <img className="poster-bannerImage" src="assets/moviebanner.png"/>
+                    <h3 className="poster-banner-title">Movies</h3>
+                  </div>
+                </div>
+                <div className="poster-wrap">
+                  {movies.map(movie => {
+                    return(
+                        <PosterLink 
+                          movie={movie}
+                        />
+                    )
+                  })}
+                </div>
+            </div>
+        )
+    }
+  
+
 }
 
 export default Movies

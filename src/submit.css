@@ -51,18 +51,6 @@
     max-width: 30vw;
 }
 
-.banner-container {
-    display: flex;
-    justify-content: space-evenly;
-    width: 73vw;
-    align-self: center;
-    padding-top: 20px;
-}
-
-.banner-rotating-lamp {
-    height: 12vh;
-}
-
 .submission-info-container {
     margin: 5px;
     display: flex;
