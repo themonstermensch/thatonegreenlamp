@@ -23,14 +23,13 @@
 }
 
 .web-image-wrap {
-    width: clamp(73vw, 800px, 90vw);;
+    width: 96%;
     min-height: 40vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(350px, 60vw), 1fr));
     grid-gap: 10px;
     margin: 2%;
     margin-bottom: 3%;
-
 }
 
 .web-lamp-supercontainer {
