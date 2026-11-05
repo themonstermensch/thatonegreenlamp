@@ -5,18 +5,20 @@
     padding: 2%;
     background-color: black;
     filter: drop-shadow(-8px 8px 0px rgb(6, 46, 42));
+    max-width: 73vw;
 
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 700;
-    font-size: clamp(3vw, 50px, 7vw);;
+    font-size: clamp(3vw, 50px, 5vh);
     color: rgb(213, 122, 113);
     text-align: center;
+    
 }
 
 .certification {
     position: absolute;
     right: 13vw;
-    top: 54vh;
+    top: min(54%, 40vw);
     height: 100px;
     width: 100px;
     z-index: 1;
@@ -24,9 +26,20 @@
     rotate: 10deg;
 }
 
+.mobile-certification {
+    position: absolute;
+    right: -20px;
+    top: 40vh;
+    height: min(100px, 25vw);
+    width: min(100px, 25vw);
+    z-index: 1;
+    filter: drop-shadow(0px 6px 2px rgb(6, 46, 42));
+    rotate: 10deg;
+}
+
 
 .lamp-media-wrapper {
-    width: 73vw;
+    width: clamp(73vw, 400px, 80vw);
     min-height: 40vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(250px, 60vw), 1fr));

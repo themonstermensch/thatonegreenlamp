@@ -5,13 +5,13 @@
       if(self.innerHeight > self.innerWidth) {
         return (
           <section id="mobile-footer">
-            <p id="mobile-katandrals">© 2026 Kat and Rals</p>
+            <a href='/aboutus' id="mobile-katandrals">© 2026 Kat and Rals</a>
           </section>
       );
       } else {
         return (
             <section id="footer">
-              <p id="katandrals">© 2026 Kat and Rals</p>
+              <a href='/aboutus' id="katandrals">© 2026 Kat and Rals</a>
             </section>
         );
       }   

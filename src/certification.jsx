@@ -6,19 +6,30 @@ function Certification({lampNum, medium}) {
     if(lampNum < 10) {
       return (<> </>)
     }
-    if(medium == "movie") {
-      return (<img className="certification" src="/assets/certified movie.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp movie'"/>)
-    } else if(medium == "tv") {
-          return (<img className="certification" src="/assets/certified show.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp show'"/>)
-    } else if(medium == "game") {
-          return (<img className="certification" src="/assets/certified game.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp game'"/>)
+    if(self.innerHeight > self.innerWidth) {
+      if(medium == "movie") {
+        return (<img className="mobile-certification" src="/assets/certified movie.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp movie'"/>)
+      } else if(medium == "tv") {
+            return (<img className="mobile-certification" src="/assets/certified show.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp show'"/>)
+      } else if(medium == "game") {
+            return (<img className="mobile-certification" src="/assets/certified game.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp game'"/>)
+      }
+
+    } else {
+      if(medium == "movie") {
+        return (<img className="certification" src="/assets/certified movie.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp movie'"/>)
+      } else if(medium == "tv") {
+            return (<img className="certification" src="/assets/certified show.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp show'"/>)
+      } else if(medium == "game") {
+            return (<img className="certification" src="/assets/certified game.png" alt="a pink sticker with a green bankers lamp which reads 'certified lamp game'"/>)
+      }
     }
     return (
-      <>
-        
+        <>
+          
 
-      </>
-    );
+        </>
+      );
   }
 
 export default Certification

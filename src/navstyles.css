@@ -22,8 +22,9 @@
     align-items: center;
     flex-wrap: wrap;
     width: 92vw;
-    padding: 4px;
+    padding: 5px;
     margin: 0px;
+    margin-top: 4px;
 }
 
 .mobile-navlink {

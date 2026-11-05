@@ -91,7 +91,11 @@
     text-align: center;
     font-family: "PT Serif Caption", serif;
     font-weight: 300;
-    font-size: 2.25vw;
+    font-size: clamp(min(3vw, 3vh), 14px, min(7vw, 7vh));
     color: rgb(120, 175, 123);
     max-height: 20%;
+}
+
+.headerlinkContainer {
+    height: 16px;
 }

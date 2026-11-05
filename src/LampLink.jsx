@@ -27,21 +27,8 @@ function LampLink({lamp, mediaLamps}) {
             const info = document.getElementById(infoID);
             info.style.opacity = 0.0;
         };
-
-        function moveRight() {
-                let newLamp = "";
-                for(let x = 0; x < mediaLamps.length; x++) {
-                    if (modalLamp.id == mediaLamps[x].id) {
-                        if(x == mediaLamps.length-1) { 
-                            newLamp = mediaLamps[0];
-                        } else {
-                            newLamp = mediaLamps[x+1]
-                        }
-                    }
-                }
-                modalLamp = newLamp;
-                openModal(modalLamp)
-            }
+        
+        
 
         function openModal(modalLamp){
             var modal = document.getElementById("myModal");
@@ -130,11 +117,11 @@ function LampLink({lamp, mediaLamps}) {
                 for(let x = 0; x < mediaLamps.length; x++) {
                     if (modalLamp.id == mediaLamps[x].id) {
                         if(x == mediaLamps.length-1) { 
-                            console.log(mediaLamps[0])
+                            
                             newLamp = mediaLamps[0];
                         } else {
                             newLamp = mediaLamps[x+1]
-                            console.log(mediaLamps[x+1])
+                            
                         }
                     }
                 }
@@ -207,8 +194,11 @@ function LampLink({lamp, mediaLamps}) {
         };
 
         const element = ref.current;
+        
 
-        element.addEventListener('click', handleClick);
+        if(self.innerHeight < self.innerWidth) {
+            element.addEventListener('click', handleClick);
+        }
         element.addEventListener('mouseover', handleHover);
         element.addEventListener('mouseout', handleUnhover);
 

@@ -664,7 +664,7 @@ export const lamps = [
 			id: 0,
 			title: "Whiplash",
 			year: 2014,
-			alt: "Andrew (Miles Teller) walks through a hallway with uniform greeb bankers lamp sitting on desks.",
+			alt: "Andrew (Miles Teller) walks through a hallway with uniform green bankers lamp sitting on desks.",
 			src: "/assets/Movies/Whiplash (2014) [1].png",
             medium: "movie",
 			author: "",
