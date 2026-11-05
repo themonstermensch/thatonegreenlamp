@@ -2,6 +2,27 @@ body {
   margin: 0;
 }
 
+#top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(27, 69, 63);
+    min-height: 84.5vh;
+    width: 100vw;
+    padding-bottom: 4vh;
+}
+
+#mobile-top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(27, 69, 63);
+    min-height: 90vh;
+    width: 100vw;
+    padding-bottom: 4vh;
+}
+
 section {
     display: flex;
     margin: 0 auto;
@@ -36,10 +57,11 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 75vw;
+    width: clamp(75vw, 100vh, 100vw);
     background-color: rgb(214, 199, 184);
     border-radius: 10px;
     margin-bottom: 15px;
+    
 }
 
 .mobile-ultracontainer {
@@ -49,6 +71,9 @@ h3 {
     width: 100vw;
     background-color: rgb(214, 199, 184);
     margin-bottom: 15px;
+    min-height: 50vh;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .photo-area {

@@ -5,27 +5,28 @@
     background-color: black;
     filter: drop-shadow(-8px 8px 0px rgb(6, 46, 42));
     border-radius: 2px;
-    height: 100px;
+    height: clamp(50px, 10vw, 100px);
     align-self: center;
-    margin-top: 40px;
+    margin-top: min(40px, 6vw);
     padding-left: 2%;
     padding-right: 2%;
+    margin-bottom: 2%;
 }
 
 .web-gallery-title {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: clamp(24px, 5vw, 60px);
     color: rgb(213, 122, 113);
     display: flex;
     align-self: center;
 }
 
 .web-image-wrap {
-    width: 73vw;
+    width: clamp(73vw, 800px, 90vw);;
     min-height: 40vh;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(350px, 60vw), 1fr));
     grid-gap: 10px;
     margin: 2%;
     margin-bottom: 3%;
@@ -36,7 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .web-lamp-container {
@@ -57,11 +58,8 @@
 .web-info-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 0px;
-    margin-top: 10px;
-    height: 30px;
+    margin: 5px;
 }
 
 .web-title {

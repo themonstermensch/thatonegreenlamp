@@ -5,7 +5,6 @@
     justify-content: space-evenly;
     margin-top: 4vh;
     width: 90%;
-    min-height: 70vh;
     background-color: rgba(0, 0, 0, 0.95);
     border-radius: 4px;
     padding-bottom: 3vh;
@@ -13,7 +12,7 @@
 
 .main-photo {
     display: flex;
-    margin-top: 3vh;
+    margin-top: min(7vh, 7vw);
     margin-bottom: 3vh;
     max-width: 95%;
     max-height: 55vh;
@@ -27,33 +26,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
+    margin-bottom: min(3vh, 2vw);
 }
 
 .info-container {
     display: flex;
-    /* border: solid 1px blue; */
-    height: 40px;
+    align-items: center;
     margin: 0px;
+    max-width: 80vw;
 }
 
 .informational-title {
+    display: inline;
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 700;
-    font-size: clamp(2vw, 32px, 3vw);
-    font-style: italic;
-    display: flex;
-    align-self: flex-start;
-    color: rgb(213, 122, 113);
-    margin: 0px;
-}
-
-.informational-year {
-    font-family: "Barlow Semi Condensed", sans-serif;
-    font-weight: 700;
-    font-size: clamp(2vw, 32px, 3vw);
-    display: flex;
-    align-self: flex-start;
-    padding-left: 10px;
+    font-size: clamp(20px, 3vw, 50px);
+    text-align: center;
     color: rgb(213, 122, 113);
     margin: 0px;
 }
@@ -61,7 +50,7 @@
 .informational-author {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 500;
-    font-size: min(3vw, 22px);
+    font-size: clamp(12px, 2vw, 30px);
     display: flex;
     align-self: flex-start;
     color: rgb(213, 122, 113);
@@ -73,9 +62,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    /* border: solid 1px blue; */
     margin: 0px;
+    max-width: 75vw;
 }
 
 .info-season {
@@ -83,7 +71,7 @@
     font-weight: 500;
     margin: 0px;
     color: rgb(213, 122, 113);
-    font-size: min(3vw, 20px);;
+    font-size: clamp(12px, 2vw, 30px);
     word-wrap: break-word;
 }
 
@@ -94,7 +82,7 @@
     margin: 0px;
     color: rgb(213, 122, 113);
     word-wrap: break-word;
-    font-size: min(3vw, 20px);;
+    font-size: clamp(12px, 2vw, 30px);
     text-align: center;
 }
 
@@ -103,7 +91,7 @@
     font-weight: 500;
     margin: 0px;
     color: rgb(213, 122, 113);
-    font-size: min(3vw, 24px);;
+    font-size: clamp(12px, 2vw, 30px);
 }
 
 .submittedBy {

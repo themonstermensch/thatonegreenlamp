@@ -45,6 +45,15 @@ export const games = [
 		},
 
 		{
+			id: 236311589,
+			title: "Invokyr",
+			year: 2026,
+			alt: "Invokyr 2026",
+			src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.actugaming.net%2Fmedia%2F2026%2F05%2Finvokyr-jaquette.jpg&f=1&nofb=1&ipt=12b72a239d10c944904685877b5184d38a1e52f871ac09f926c2be8e3e0dd506&ipo=images",
+			medium: "game",
+		},
+
+		{
 			id: 23452,
 			title: "Nancy Drew® Midnight in Salem",
 			year: 2019,

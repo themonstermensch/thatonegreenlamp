@@ -2,10 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import { lamps } from "./lamplist.js"
 import { useParams } from "react-router";
 
-import Header from './header.jsx';
-import NavBar from './navbar.jsx';
-import Footer from './footer.jsx';
-
 import LampNotFound from "./lampNotFound.jsx";
 import LampLink from "./LampLink.jsx";
 
@@ -53,15 +49,16 @@ function LampMedia() {
     // <img key={lamp.id} className="lamp-image" src={lamp.src} alt={lamp.alt}/>
     return (
       <>
-            <div className="ultracontainer" id="photo-area">
+            
               <Certification 
                 lampNum={filteredLamps.length}
                 medium={filteredLamps[0].medium}
               />
-              <div className="media-info-container">
-                <h3 className="lamp-media-informational-title">{mediaTitle}</h3>
-                <h3 className="lamp-media-informational-year">({mediaYear})</h3>
-              </div>
+              <h3 className="media-info-container">
+                  <i>{mediaTitle}</i>
+                  &nbsp;
+                  <a>({mediaYear})</a>
+              </h3>
               <div className="lamp-media-wrapper">
                 {filteredLamps.map(lamp => {
                   return (
@@ -72,7 +69,7 @@ function LampMedia() {
                 )
                 })}
               </div>
-            </div>
+
         <Modal />
       </>
     );

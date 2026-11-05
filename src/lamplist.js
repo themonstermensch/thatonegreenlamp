@@ -1967,6 +1967,17 @@ export const lamps = [
 
 		{
 			id: 0,
+			title: "Invokyr",
+			year: 2026,
+			alt: "A point of view shot of someone shining a flashlight on a green bankers lamp in a dark room.",
+			src: "/assets/Games/Invokyr (2026) [1].png",
+            medium: "game",
+			level: "Early Access",
+			submittedBy: "Rhys",
+		},
+
+		{
+			id: 0,
 			title: "Nancy Drew® Midnight in Salem",
 			year: 2019,
 			alt: "Judge Danforth and Dierdre Shannon stand in an office next to a desk with a green bankers lamp.",

@@ -1,14 +1,19 @@
  import React from 'react';
  import { lamps } from "./lamplist.js"
+ import "./randstyles.css";
 
    function Subinfo({lamp}) {
+    let year = "(" + lamp.year + ")";
     switch (lamp.medium) {
       case "art":
         return (
           <div className="info-supercontainer">
             <div className="info-container">
-              <h3 className="informational-title">{lamp.title}</h3>
-              <h3 className="informational-year">({lamp.year})</h3>
+              <h3 className="informational-title">
+                <i>{lamp.title}</i>
+                &nbsp;
+                <a>({lamp.year})</a>
+              </h3>
             </div>
             <div className="subinfo-container">
               <h3 className="informational-author">{lamp.author}</h3>
@@ -19,8 +24,11 @@
         return (      
           <div className="info-supercontainer">
             <div className="info-container">
-              <h3 className="informational-title">{lamp.title}</h3>
-              <h3 className="informational-year">({lamp.year})</h3>
+              <h3 className="informational-title">
+                <i>{lamp.title}</i>
+                &nbsp;
+                <a>({lamp.year})</a>
+              </h3>
             </div>
             <div className="subinfo-container">
               <h4 className="info-season">{"Season "+lamp.season+" Episode "+lamp.episode}</h4>
@@ -44,8 +52,11 @@
           return (
             <div className="info-supercontainer">
               <div className="info-container">
-                <h3 className="informational-title">{lamp.title}</h3>
-                <h3 className="informational-year">({lamp.year})</h3>
+                <h3 className="informational-title">
+                  <i>{lamp.title}</i>
+                  &nbsp;
+                  <a>({lamp.year})</a>
+                </h3>
               </div>
               <div className="subinfo-container">
                 <h4 className="info-level">{lamp.level}</h4>
@@ -57,8 +68,11 @@
         return (
           <div className="info-supercontainer">
             <div className="info-container">
-              <h3 className="informational-title">{lamp.title}</h3>
-              <h3 className="informational-year">({lamp.year})</h3>
+              <h3 className="informational-title">
+                <i>{lamp.title}</i>
+                &nbsp;
+                <a>({lamp.year})</a>
+              </h3>
             </div>
           </div>
         ); 

@@ -25,39 +25,6 @@ import LampNotFound from "./lampNotFound.jsx";
 let vertical = self.innerHeight > self.innerWidth;
 
 function App() {
-  if(vertical) {
-
-    return(
-      <div className='App'>
-        <section id="top-section">
-            <Header />
-            <div className="mid-container">
-              <NavBar />
-              <div className="mobile-ultracontainer">
-                <Routes>
-                    <Route path="/" element={<RandomLamp />} />
-                    <Route path="/movies/" element={<Movies />} />
-                    <Route path="/movies/:movie" element={<LampMedia />} />
-                    <Route path="/tv/" element={<Shows />} />
-                    <Route path="/tv/:show" element={<LampMedia />} />
-                    <Route path="/games/" element={<Games />} />
-                    <Route path="/games/:game" element={<LampMedia />} />
-                    <Route path="/art/" element={<Art />} />
-                    <Route path="/webcontent/" element={<Web />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/aboutus" element={<AboutUs />} />
-                    <Route path="/submit" element={<Submit />} />
-                    <Route path="*" element={<LampNotFound />} />
-                </Routes>
-              </div>
-          </div>
-        </section>
-        <Footer />
-      </div>
-    )
-    
-  } else {
-    
     return (
       <div className='App'>
         <section id="top-section">
@@ -71,9 +38,12 @@ function App() {
                     <Route path="/movies/:movie" element={<LampMedia />} />
                     <Route path="/tv/" element={<Shows />} />
                     <Route path="/tv/:show" element={<LampMedia />} />
+                    <Route path="/television/" element={<Shows />} />
+                    <Route path="/television/:show" element={<LampMedia />} />
                     <Route path="/games/" element={<Games />} />
                     <Route path="/games/:game" element={<LampMedia />} />
                     <Route path="/art/" element={<Art />} />
+                    <Route path="/web/" element={<Web />} />
                     <Route path="/webcontent/" element={<Web />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/aboutus" element={<AboutUs />} />
@@ -86,8 +56,6 @@ function App() {
         <Footer />
       </div>
     )
-
-  }
 }
 
 export default App

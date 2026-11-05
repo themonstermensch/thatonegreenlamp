@@ -1,6 +1,3 @@
-import Header from './header.jsx';
-import NavBar from './navbar.jsx';
-import Footer from './footer.jsx';
 import { lamps } from "./lamplist.js"
 import { useParams } from "react-router";
 import './art.css';
@@ -16,7 +13,7 @@ function Art() {
 
     return (
       <>
-            <div className="ultracontainer">
+            
               <div className="gallery-title-container">
                 <div className="gallery-title">Art Gallery</div>
               </div>
@@ -30,18 +27,26 @@ function Art() {
                           mediaLamps={artLamps}
                           />
                         <div className="art-info-container">
+                          <h3 className="art-title">
+                              <i>{lamp.title}</i>
+                              &nbsp;
+                              <a>({lamp.year})</a>
+                          </h3>
+                          <h3 className="art-author">{lamp.author}</h3>
+                        </div>
+                        {/* <div className="art-info-container">
                           <h3 className="art-title">{lamp.title}</h3>
                           <h3 className="art-year">({lamp.year})</h3>
                         </div>
                         <div className="art-subinfo-container">
                           <h3 className="art-author">{lamp.author}</h3>
-                        </div>
+                        </div> */}
                       </div>
                     )
                   })}
                 </div>
               </div>
-            </div>
+            
         <Modal />
       </>
     )

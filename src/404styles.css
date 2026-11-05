@@ -1,7 +1,12 @@
 .fzf-container {
     display: flex;
-    width: 73vw;
+    width: 98%;
     height: 70vh;
+
+}
+
+.mobile-fzf-container {
+    width: 98%;
 }
 
 .fzf-image {
@@ -11,13 +16,20 @@
     filter: drop-shadow(-4px 4px 3px rgb(6, 46, 42));
 }
 
+.mobile-fzf-image {
+    float: left;
+    max-width: 35%;
+    margin: 5%;
+    margin-top: 10%;
+    filter: drop-shadow(-4px 4px 3px rgb(6, 46, 42));
+}
+
 .fzf-text-container {
     height: 100%;
     width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .fzf-header-container {
@@ -34,11 +46,32 @@
     padding-bottom: 10px;
 }
 
+.mobile-fzf-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    filter: drop-shadow(-8px 8px 0px rgb(6, 46, 42));
+    border-radius: 2px;
+    margin: 5%;
+    min-width: 40vw;
+    padding: 4px
+}
+
 .fzf-header {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 700;
     color: rgb(213, 122, 113);
     font-size: 50px;
+}
+
+.mobile-fzf-header {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+    color: rgb(213, 122, 113);
+    font-size: 4.5vw;
+    text-align: left;
+
 }
 
 .fzf-explanation {
@@ -51,6 +84,17 @@
     padding: 5%;
     color: rgb(6, 46, 42);
 
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.mobile-fzf-explanation {
+    font-family: "PT Serif Caption", serif;
+    font-weight: 500;
+    font-size: 3vw;
+    font-style: italic;
+    padding: 5%;
+    color: rgb(6, 46, 42);
     text-align: justify;
     text-justify: inter-word;
 }
