@@ -9,7 +9,7 @@
             <div className="mobile-header">
                 <div className="mobile-header-decor">
                     <img className="low-poly-rotating-lamp" src='/assets/the lamp transparent slow.gif' alt="a rotating low poly lamp with a green shade."/>
-                    <div className='headerlinkContainer'>
+                    <div className='mobile-headerlinkContainer'>
                         <a className="mobile-headerlink" href="/about">About the lamp</a>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                 </div>
                 <div className="mobile-header-decor">
                     <img className="low-poly-rotating-lamp" src='/assets/the lamp transparent slow.gif'  alt="a rotating low poly lamp with a green shade."/>
-                    <div className='headerlinkContainer'>
+                    <div className='mobile-headerlinkContainer'>
                         <a className="mobile-headerlink" href="/aboutus">About us</a>
                     </div>
                 </div>

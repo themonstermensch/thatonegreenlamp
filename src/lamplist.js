@@ -242,6 +242,36 @@ export const lamps = [
 
 		{
 			id: 0,
+			title: "Hundreds of Beavers",
+			year: 2022,
+			alt: "A black and white shot of Jean Kayak (Ryland Brickson Cole Tews) sitting in a courtroom filled with beavers lit only by a bankers lamp. A lawyer, also a beaver, sits next to him nervously dabbing their forehead sweat.",
+			src: "/assets/Movies/Hundreds of Beavers (2022) [1].png",
+            medium: "movie",
+			author: "",
+			submittedBy: "Kat",
+		}, {
+			id: 1,
+			title: "Hundreds of Beavers",
+			year: 2022,
+			alt: "Black and white shot. Jean Kayak (Ryland Brickson Cole Tews) sits behind a desk lit by a bankers lamp. His beaver laywer has collapsed on the floor beside him.",
+			src: "/assets/Movies/Hundreds of Beavers (2022) [2].png",
+            medium: "movie",
+			author: "",
+			submittedBy: "Kat",
+		}, {
+			id: 2,
+			title: "Hundreds of Beavers",
+			year: 2022,
+			alt: "Black and white shot. Jean Kayak (Ryland Brickson Cole Tews) has a bag placed over his head by two beaver cops and a beaver executioner. A bankers lamp sits in front of them on a desk.",
+			src: "/assets/Movies/Hundreds of Beavers (2022) [3].png",
+            medium: "movie",
+			author: "",
+			submittedBy: "Kat",
+		},
+
+
+		{
+			id: 0,
 			title: "In the Mouth of Madness",
 			year: 1994,
 			alt: "John Trent (Sam Neill) clutches the shoulders of Mr. Paul (Peter Jason). Robinson (Bernie Casey) watches from behind a desk with a green bankers lamp.",
@@ -762,6 +792,30 @@ export const lamps = [
 			season: 2,
 			episode: 11,
 			episodeTitle: "The S-Word",
+			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
+			title: "Ducktales",
+			year: 2017,
+			alt: "Huey, Dewey, and Louie all weakly pick themselves off the ground as Webby excitedly taps Louie's head. A green bankers lamp rests on a desk behind them.",
+			src: "/assets/TV/DuckTales (2017)/DuckTales (2017) S01E01 Woo-oo! [1].png",
+            medium: "tv",
+			season: 1,
+			episode: 1,
+			episodeTitle: "Woo-oo!",
+			submittedBy: "Kat",
+		}, {
+			id: 1,
+			title: "Ducktales",
+			year: 2017,
+			alt: "Scrooge McDuck throws a model plane into the air exacerbatedly. A green bankers lamp sists on his desk behind him.",
+			src: "/assets/TV/DuckTales (2017)/DuckTales (2017) S01E01 Woo-oo! [2].png",
+            medium: "tv",
+			season: 1,
+			episode: 1,
+			episodeTitle: "Woo-oo!",
 			submittedBy: "Kat",
 		},
 

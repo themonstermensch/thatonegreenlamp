@@ -108,6 +108,15 @@ export const movies = [
 		}, 
 
 		{
+			id: 5234539,
+			title: "Hundreds of Beavers",
+			year: 2022,
+			alt: "Hundreds of Beavers 2022",
+			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/jnIficPs7iEyzXCQf174OYalo5w.jpg",
+            medium: "movie"
+		}, 
+
+		{
 			id: 523459,
 			title: "In the Mouth of Madness",
 			year: 1994,
