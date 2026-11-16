@@ -68,7 +68,7 @@ function PosterLink({movie}) {
                 key={movie.id} 
                 id={"poster-"+movie.id} 
                 src={movie.src} 
-                alt={movie.alt}
+                alt={movie.title + " " + movie.year}
                       />
                 <div ref={ref} className="infoContainer" id={"infoCo-"+movie.id}>
                     <p className="mediaTitle">{movie.title}</p>

@@ -1,6 +1,9 @@
  import React from 'react';
  import "./randstyles.css";
+ 
  import Subinfo from "./subinfo.jsx"
+ import Credit from "./credit.jsx"
+
  import { lamps } from "./lamplist.js"
  import CheckSpecial from "./specialLamps"
 
@@ -46,36 +49,6 @@
 
     chosenLamp = lamps[randNum]
     chosenLamp = CheckSpecial(chosenLamp)
-
-    /* One in 10,000 check to get a secret, unlisted lamp */
-    // var specialCheck = Math.floor(Math.random() * (9999));
-    // if(specialCheck == 0) {
-    //   chosenLamp.title = "Placeholder Art";
-    //   chosenLamp.author = "Raleigh Welch";
-    //   chosenLamp.year = 2026;
-    //   chosenLamp.src = "src/assets/placeholder_lamp.webp";
-    //   chosenLamp.alt = "poorly drawn placeholder art of a green banker's lamp";
-    //   chosenLamp.medium = "art"
-    //   chosenLamp.submittedBy = "Rals"
-    // } else if (specialCheck == 1) {
-    //   chosenLamp.title = "404: Lamp Not Found";
-    //   chosenLamp.author = "KatNap";
-    //   chosenLamp.year = 2026;
-    //   chosenLamp.src = "src/assets/lamp-painting.png";
-    //   chosenLamp.alt = "a digital painting of a green bankers lamp looking left";
-    //   chosenLamp.medium = "art"
-    //   chosenLamp.submittedBy = "Kat"
-    // } else if (specialCheck == 2) {
-    //   chosenLamp.title = "Missing Lamp";
-    //   chosenLamp.author = "KatNap";
-    //   chosenLamp.year = 2026;
-    //   chosenLamp.src = "src/assets/lampmissingillustration.png";
-    //   chosenLamp.alt = "a digital sketch of a bankers lamp for a missing person's poster";
-    //   chosenLamp.medium = "art"
-    //   chosenLamp.submittedBy = "Kat"
-    // } else {
-    //   chosenLamp = lamps[randNum]
-    // }
     
     return (
         <div className="photo-area" id="photo-area">
@@ -87,7 +60,9 @@
               />
 
             </div>
-          <h4 className="submittedBy">{"Submitted by " + chosenLamp.submittedBy}</h4>
+          <Credit
+            lamp={chosenLamp}
+          />
         </div>
       )
    }

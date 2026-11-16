@@ -1422,6 +1422,42 @@ export const lamps = [
 			submittedBy: "Kat",
 		},
 
+		{
+			id: 0,
+			title: "BioShock Infinite",
+			year: 2013,
+			alt: "A desk with a bloodied framed photo, a typewriter, and a green bankers lamp.'",
+			src: "/assets/Games/BioShock Infinite (2013) [1].jpg",
+            medium: "game",
+			level: "Bank of the Prophet",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		}, {
+			id: 1,
+			title: "BioShock Infinite",
+			year: 2013,
+			alt: "Elizabeth stands in front of an easel beside a wall taped with children's crayon drawings, lit from below by a green bankers lamp.",
+			src: "/assets/Games/BioShock Infinite (2013) [2].jpg",
+            medium: "game",
+			level: "Elizabeth's Tower",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		}, {
+			id: 2,
+			title: "BioShock Infinite",
+			year: 2013,
+			alt: "A personal desk in an office waiting area with scattered documents and a green bankers lamp.",
+			src: "/assets/Games/BioShock Infinite (2013) [3].jpg",
+            medium: "game",
+			level: "",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		},
+
+
 
 		{
 			id: 0,
@@ -1527,14 +1563,25 @@ export const lamps = [
 			id: 11,
 			title: "Control",
 			year: 2019,
-			alt: "Jesse paranaturally weilds a green bankers lamp, preparing to toss it at a corrupted Tommasi.",
+			alt: "Jesse paranaturally wields a green bankers lamp, preparing to toss it at a corrupted Tommasi.",
 			src: "/assets/Games/Control (2019)/Control (2019) Mail Room [5].jpg",
             medium: "game",
 			level: "Mail Room",
 			submittedBy: "Kat",
 		}, 
 
-
+		{
+			id: 0,
+			title: "Devil May Cry 5",
+			year: 2019,
+			alt: "Nero stands in an old library with streaks of light shining through old windows. A flatly lit green bankers lamp sits on a desk directly ahead.",
+			src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUfBNZo7jpN3_fGd5-GicPZpGlUvAG41HVIyPEkGdAXdL0LTSSsnvZsW3e3qAeDvHVMh_RQQ8_Y17ppTyqVDI2EnpyTwOKtbz_HS3reinBV58T6xNaP9ULuYoYHNEcJuifKkQ5wNe2tiY3/s640/20191030201840_1.jpg",
+            medium: "game",
+			level: "Red Grave City",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		}, 
 
 		{
 			id: 0,
@@ -1794,7 +1841,7 @@ export const lamps = [
 			id: 25,
 			title: "HITMAN World of Assassination",
 			year: 2021,
-			alt: "A lit bankers lamp on an office desk with an open (and broken) laptop and scattered papers on top of it. Two unconscious people are visible on the floor in the background.",
+			alt: "A lit bankers lamp on an office desk with an open (and broken) laptop and scattered papers on top of it. Two dead bodies are visible on the floor in the background.",
 			src: "/assets/Games/Hitman (2021)/HITMAN World of Assassination (2021) Sapienza [53].jpg",
             medium: "game",
 			level: "Sapienza",
@@ -2021,6 +2068,30 @@ export const lamps = [
 
 		{
 			id: 0,
+			title: "Inmates",
+			year: 2026,
+			alt: "A lit green bankers lamp in the corner of an old, abandoned room.",
+			src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqW8tWRA76As269mZCTxgpZj3mGdP7yZbcmTR9lOduI-TY2tZ-amUYULg_GIQQGTdNOkF8DYw92Zuf8vH5whtDxBKH12A7OCsRveK-0qww4hG51TmYA6fRxJHjFRpT_JlFl7CCrp_b0VEa/s640/inmates+2.jpg",
+            medium: "game",
+			level: "Prison",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		}, {
+			id: 1,
+			title: "Inmates",
+			year: 2026,
+			alt: "A lit green bankers lamp illuminating some stacked paper dolls in blue, pink, and yellow.",
+			src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg___gqE3y8-7ZQPYrIR7FwRt1pSJV4m9_2c42omx5w_bAXAQCHmf6X-QdUigwAxMf4dQeKPt5MJEmbtZ6AUUDZ12bUEJjQPelKyu2Ki9LMjx_DoOfbm2KeAZpgbpRfpcd_l8JiEVwdY18f/s640/inmates.jpg",
+            medium: "game",
+			level: "Prison",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		},
+
+		{
+			id: 0,
 			title: "Invokyr",
 			year: 2026,
 			alt: "A point of view shot of someone shining a flashlight on a green bankers lamp in a dark room.",
@@ -2028,6 +2099,19 @@ export const lamps = [
             medium: "game",
 			level: "Early Access",
 			submittedBy: "Rhys",
+		},
+
+		{
+			id: 0,
+			title: "Murdered: Soul Suspect",
+			year: 2014,
+			alt: "Ronan O’Connor standing in the derelict back room of a chuch. A lit green bankers lamp is on a desk in the corner.",
+			src: "/assets/Games/Murdered Soul Suspect (2014) [1].jpg",
+            medium: "game",
+			level: "Church",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
 		},
 
 		{
@@ -2063,6 +2147,89 @@ export const lamps = [
 
 		{
 			id: 0,
+			title: "Resident Evil 2",
+			year: 2019,
+			alt: "Claire Redfield stands in an empty library with green walls and many green bankers lamps.",
+			src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLYkqucHfNVJjZjncSpgKQknk7b6XEnU5S_0U7GrrcNEdzkeL5utgEnN9vBBLC1Z_i4jxj0HSZ-4Kz4qZZey-WmQEGKp9fQOM8i8Fxe9lUb3YUKUnevBOY6ax0vNBL63zPytRBJDHViFYz/s640/20191004174449_1.jpg",
+            medium: "game",
+			level: "Library",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		}, {
+			id: 1,
+			title: "Resident Evil 2",
+			year: 2019,
+			alt: "Claire Redfield stands in an office surrounded by old fashioned furniture. A lit green bankers lamp sits on a large desk directly ahead.",
+			src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKjSzuRZJ_yXbLD0s3SaS3vCWJ5na69CJsAtmGk4tP-0xDl7I-Ivl0b3wJSXmnmcfiCxrI0si_rsOPHpn5N9u1qJyS7Ly-KGr5nJayXE5_u0x-StBZ6MGOyPbFEkhS3RN9pMyF0UhjZMO8/s640/20190129200512_1.jpg",
+            medium: "game",
+			level: "Chief's Office",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		},
+
+		{
+			id: 0,
+			title: "Resident Evil 6",
+			year: 2012,
+			alt: "Leon stands in front of a dean's desk on a stormy night, lit only by a green bankers lamp. A moose head is mounted on the wall.",
+			src: "/assets/Games/Resident Evil 6 (2012) [1].jpg",
+            medium: "game",
+			level: "Leon Chapter 1-1",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		}, {
+			id: 1,
+			title: "Resident Evil 6",
+			year: 2012,
+			alt: "Leon stands near a small table beside a doorway with a lit green bankers lamp. Two paintings are mounted on the wall.",
+			src: "/assets/Games/Resident Evil 6 (2012) [2].jpg",
+            medium: "game",
+			level: "Leon Chapter 1-1",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		},
+
+		{
+			id: 0,
+			title: "Rise of the Tomb Raider",
+			year: 2015,
+			alt: "Lara Croft stands in front of a desk in a manor in front of a lit green bankers lamp.",
+			src: "/assets/Games/Rise of the Tomb Raider (2015) [1].jpg",
+            medium: "game",
+			level: "Croft Manor",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		}, {
+			id: 1,
+			title: "Rise of the Tomb Raider",
+			year: 2015,
+			alt: "Lara Croft stands in a dusty, abandoned library beside a desk with a green bankers lamp.",
+			src: "/assets/Games/Rise of the Tomb Raider (2015) [2].jpg",
+            medium: "game",
+			level: "Croft Manor",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		}, {
+			id: 2,
+			title: "Rise of the Tomb Raider",
+			year: 2015,
+			alt: "Lara Croft stands in a dusty, abandoned library. A green bankers lamp stands beside a stack of books on a desk.",
+			src: "/assets/Games/Rise of the Tomb Raider (2015) [3].jpg",
+            medium: "game",
+			level: "Croft Manor",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		},
+
+		{
+			id: 0,
 			title: "Shadows of Doubt",
 			year: 2024,
 			alt: "A moody, low poly bedroom with an old desktop computer monitor and keyboard and lit green bankers lamp on the desk.",
@@ -2090,6 +2257,32 @@ export const lamps = [
 			medium: "game",
 			level: "World C - Level 2",
 			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
+			title: "True Fear: Forsaken Souls Part 2",
+			year: 2018,
+			alt: "A 2D image of a lit green bankers lamp illuminaating a desk in a doctor's office.",
+			src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyI23eVGfk4D2wdd0ckxx7H0InDbHYcJcaKOb5tq6koAWoquY_25zuwiAGYnIXH8NWM5Fzd9h1_3E-UawTubWrH79Ff3dG_obYiweBfbWVpnx4bp7h7QMJpqdYSt0rYql6b2rwg5HTri_B/s640/true+fear+forsaken+souls+2.jpg",
+            medium: "game",
+			level: "Asylum",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
+		},
+
+		{
+			id: 0,
+			title: "What Never Was",
+			year: 2019,
+			alt: "In an old, personal office a magnifying glass examines an open book next to a green bankers lamp.",
+			src: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisxvK-YaxoHDl8tJEZxgI5qZ2t06JA_nIXPKrpHt5YqBXGzIukwUQNJvaT3p4UT8Vr8masUcCRnreKvMK9mjVM5BrkbtvpcA8FprbbwsG_L9l0vc2aWYSaDbkkdbRF0JEuoiYJjAYjOJ5D/s640/what+never+was.jpg",
+            medium: "game",
+			level: "",
+			submittedBy: "Nerin",
+			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
+			submissionLinkText: "strangedarkstories.com"
 		},
 
 

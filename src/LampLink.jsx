@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from 'react';
 
 let modalLamp = '';
 
+import displayInfoTest from "./specialLamps"
+
 //import { useFetch } from './hooks/useFetch'
 
 function LampLink({lamp, mediaLamps}) {
@@ -10,6 +12,7 @@ function LampLink({lamp, mediaLamps}) {
     
     useEffect(() => {
 
+        
         function displayInfo(id) {
             let imageID = "sngimg-"+id;
             let lampImage = document.getElementById(imageID);
@@ -27,6 +30,21 @@ function LampLink({lamp, mediaLamps}) {
             const info = document.getElementById(infoID);
             info.style.opacity = 0.0;
         };
+
+        function displaySubmission(lamp) {
+            let submission = document.createElement("h3")
+            submission.className = "lamp-submitted-by"
+            submission.innerText = "Submitted by "+ lamp.submittedBy;
+            if(lamp.submissionLink) {
+                let lampLink = document.createElement("a")
+                lampLink.className = "lamp-submitted-by"
+                lampLink.href = lamp.submissionLink
+                lampLink.innerText = lamp.submissionLinkText
+                submission.innerText += " at "
+                submission.appendChild(lampLink)
+            }
+            return submission
+        }
         
         
 
@@ -70,9 +88,10 @@ function LampLink({lamp, mediaLamps}) {
                 captionContainer.appendChild(title);
                 captionContainer.appendChild(channel);
             }
-            let submission = document.createElement("h3")
-            submission.className = "lamp-submitted-by"
-            submission.innerText = "Submitted by "+ modalLamp.submittedBy;
+            // let submission = document.createElement("h3")
+            // submission.className = "lamp-submitted-by"
+            // submission.innerText = "Submitted by "+ modalLamp.submittedBy;
+            let submission = displaySubmission(modalLamp)
             captionContainer.appendChild(submission);
 
             //document.getElementById("zoomCheck").checked = false;
