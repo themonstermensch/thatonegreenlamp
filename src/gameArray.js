@@ -24,7 +24,7 @@ export const games = [
 		},
 
 		{
-			id: 0,
+			id: 7828263,
 			title: "Devil May Cry 5",
 			year: 2019,
 			src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mobygames.com%2Fimages%2Fcovers%2Fl%2F544276-devil-may-cry-5-xbox-one-front-cover.jpg&f=1&nofb=1&ipt=51f4ee438930918e66e2963f6a96d69532ab2f43cd5fcb8a0d220da10d78243a&ipo=images",
@@ -32,7 +32,7 @@ export const games = [
 		},
 	
 		{
-			id: 0,
+			id: 6345683,
 			title: "Dispatch",
 			year: 2025,
 			src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BNzIwNmZjYWUtOWIzNC00YTNhLWE3YmEtNzcyM2EzMjhkZmZhXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg&f=1&nofb=1&ipt=7ff203a9898b9e060e354e1e83760c5af7069b1ca611cff64f074dc41d06880c&ipo=images",
@@ -124,6 +124,14 @@ export const games = [
 			title: "Shadows of Doubt",
 			year: 2024,
 			src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.gamerantimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2024%2F04%2Fshadows-of-doubt-game.jpg&f=1&nofb=1&ipt=2a42829d83f235a2a733b61d80b7747fbb18ec8b8180dbe068157f7291cd4c12&ipo=images",
+            medium: "game",
+		},
+
+		{
+			id: 62342534,
+			title: "Stardew Valley",
+			year: 2016,
+			src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.gamerantimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2024%2F12%2Fmixcollage-08-dec-2024-02-11-pm-2997.jpg&f=1&nofb=1&ipt=d96b054c88bcb7fa78b8c612a7f549fe252eb797bef8edb728407f06ff007357&ipo=images",
             medium: "game",
 		},
 
