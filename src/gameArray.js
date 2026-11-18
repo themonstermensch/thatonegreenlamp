@@ -40,6 +40,14 @@ export const games = [
 		},
 
 		{
+			id: 23450982,
+			title: "Heartworm",
+			year: 2025,
+			src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.moddb.com%2Fimages%2Fgames%2F1%2F84%2F83111%2Fboxart.jpg&f=1&nofb=1&ipt=d7c730b462cd86d67a36a79a77f72a6045abade0b3b5c3dcb0cb118810b915c8&ipo=images",
+            medium: "game",
+		},
+
+		{
 			id: 1,
 			title: "HITMAN World of Assassination",
 			year: 2021,
@@ -148,6 +156,14 @@ export const games = [
 			title: "True Fear: Forsaken Souls Part 2",
 			year: 2018,
 			src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.igdb.com%2Figdb%2Fimage%2Fupload%2Ft_cover_big_2x%2Fco9yll.jpg&f=1&nofb=1&ipt=273ebe7493ffc6721c786f3406a8993e28932eeaf91dffe4e698fe8f1c9ce6d2&ipo=images",
+            medium: "game",
+		},
+
+		{
+			id: 60983456,
+			title: "Two & Two: Agents",
+			year: 2027,
+			src: "https://www.tekatekistudios.com/press-kit/en/two-and-two-agents/vertical-capsule.png",
             medium: "game",
 		},
 

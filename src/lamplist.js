@@ -314,6 +314,26 @@ export const lamps = [
 
 		{
 			id: 0,
+			title: "Last Holiday",
+			year: 2006,
+			alt: "Georgia (Queen Latifah) sits in front of a high bank desk with a green bankers lamp on it.",
+			src: "/assets/Movies/Last Holiday (2006) [1].png",
+            medium: "movie",
+			author: "",
+			submittedBy: "Kat",
+		}, {
+			id: 1,
+			title: "Last Holiday",
+			year: 2006,
+			alt: "An unnamed banker speaks to Georgia (Queen Latifah). His desk has a bowl of candy canes and a green bankers lamp.",
+			src: "/assets/Movies/Last Holiday (2006) [2].png",
+            medium: "movie",
+			author: "",
+			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
 			title: "Margin Call",
 			year: 2011,
 			alt: "A shot of an empty office in the middle of the night. There is a row of screens with charts and graphs next to a green bankers lamp.",
@@ -1660,6 +1680,17 @@ export const lamps = [
 
 		{
 			id: 0,
+			title: "Heartworm",
+			year: 2025,
+			alt: "A dark and moody low poly room with barely-visible green bankers lamps on a long table.",
+			src: "/assets/Games/Heartworm (2025) [1].png",
+            medium: "game",
+			level: "",
+			submittedBy: "JonnyIDunno",
+		},
+
+		{
+			id: 0,
 			title: "HITMAN World of Assassination",
 			year: 2021,
 			alt: "Agent 47 (dressed as a hotel guard) pointing a gun at a lit bankers lamp on a desk in a gaudy hotel room.",
@@ -2327,6 +2358,17 @@ export const lamps = [
 			submittedBy: "Nerin",
 			submissionLink: "https://www.strangedarkstories.com/2019/11/vintage-elements-in-video-games-bankers.html",
 			submissionLinkText: "strangedarkstories.com"
+		},
+
+		{
+			id: 0,
+			title: "Two & Two: Agents",
+			year: 2027,
+			alt: "Illustrated video game shot: a shelf with some paper and a green bankers lamp. A speech balloon says \"It's a vintage lamp.\" Framed red gems adorn the adjacent wall.",
+			src: "/assets/Games/Two & Two Agents (2027) [1].png",
+            medium: "game",
+			level: "Demo",
+			submittedBy: "Joe Sondow",
 		},
 
 		{
