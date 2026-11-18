@@ -274,7 +274,6 @@ export const lamps = [
 			alt: "A black and white shot of Dr. Frankenstein hunches over a cluttered desk lit by a bankers lamp.",
 			src: "/assets/Movies/Frankenstein (1931) [1].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		},
 
@@ -285,7 +284,16 @@ export const lamps = [
 			alt: "A psychiatrist (Gerry Becker) sits at a desk with both hands gripping the armrests. A green bankers lamp sits in the background.",
 			src: "/assets/Movies/Happiness (1998) [1].png",
             medium: "movie",
-			
+			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
+			title: "Hot Fuzz",
+			year: 2007,
+			alt: "Nicholas Angel (Simon Pegg) speaks with Inspector Frank Butterman (Jim Broadbent). A green bankers lamp can be seen between them.",
+			src: "/assets/Movies/Hot Fuzz (2007) [1].png",
+            medium: "movie",
 			submittedBy: "Kat",
 		},
 
@@ -296,7 +304,6 @@ export const lamps = [
 			alt: "A black and white shot of Jean Kayak (Ryland Brickson Cole Tews) sitting in a courtroom filled with beavers lit only by a bankers lamp. A lawyer, also a beaver, sits next to him nervously dabbing their forehead sweat.",
 			src: "/assets/Movies/Hundreds of Beavers (2022) [1].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -305,7 +312,6 @@ export const lamps = [
 			alt: "Black and white shot. Jean Kayak (Ryland Brickson Cole Tews) sits behind a desk lit by a bankers lamp. His beaver laywer has collapsed on the floor beside him.",
 			src: "/assets/Movies/Hundreds of Beavers (2022) [2].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -314,7 +320,6 @@ export const lamps = [
 			alt: "Black and white shot. Jean Kayak (Ryland Brickson Cole Tews) has a bag placed over his head by two beaver cops and a beaver executioner. A bankers lamp sits in front of them on a desk.",
 			src: "/assets/Movies/Hundreds of Beavers (2022) [3].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		},
 
@@ -326,7 +331,6 @@ export const lamps = [
 			alt: "John Trent (Sam Neill) clutches the shoulders of Mr. Paul (Peter Jason). Robinson (Bernie Casey) watches from behind a desk with a green bankers lamp.",
 			src: "/assets/Movies/In the Mouth of Madness (1994) [1].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		},
 
@@ -337,7 +341,6 @@ export const lamps = [
 			alt: "Indiana (Harrison Ford), Marcus (Denholm Elliott), and Elsa (Alison Doody) stare up at a stained glass window. A green bankers lamp rests at the edge of frame.",
 			src: "/assets/Movies/Indiana Jones and the Last Crusade (1989) [1].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		},	{
 			id: 1,
@@ -376,7 +379,6 @@ export const lamps = [
 			alt: "Georgia (Queen Latifah) sits in front of a high bank desk with a green bankers lamp on it.",
 			src: "/assets/Movies/Last Holiday (2006) [1].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -385,7 +387,24 @@ export const lamps = [
 			alt: "An unnamed banker speaks to Georgia (Queen Latifah). His desk has a bowl of candy canes and a green bankers lamp.",
 			src: "/assets/Movies/Last Holiday (2006) [2].png",
             medium: "movie",
-			
+			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
+			title: "Magnolia",
+			year: 1999,
+			alt: "Stanley Spector (Jeremy Blackman) sits alone in a library with books spread in front of him. A green bankers lamp sits at the edge of the frame.",
+			src: "/assets/Movies/Magnolia (1999) [1].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 1,
+			title: "Magnolia",
+			year: 1999,
+			alt: "A pot of flowers sits on a table in a library on a stormy night. A green bankers lamp sits at the edge of the frame.",
+			src: "/assets/Movies/Magnolia (1999) [4].png",
+            medium: "movie",
 			submittedBy: "Kat",
 		},
 
@@ -396,7 +415,6 @@ export const lamps = [
 			alt: "A shot of an empty office in the middle of the night. There is a row of screens with charts and graphs next to a green bankers lamp.",
 			src: "/assets/Movies/Margin Call (2011) [1].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		},
 
@@ -407,7 +425,6 @@ export const lamps = [
 			alt: "Two old sitting at a desk with a green bankers lamp turn around in their seats to look at the camera.",
 			src: "/assets/Movies/Miller's Crossing (1990) [3].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -416,7 +433,6 @@ export const lamps = [
 			alt: "A man in a suit looks out a window next to a desk with a green bankers lamp.",
 			src: "/assets/Movies/Miller's Crossing (1990) [12].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, 
 
@@ -590,6 +606,88 @@ export const lamps = [
 			year: 2013,
 			alt: "Mike Wazowski, wearing a Monsters University branded cap, points to a diagram of a tentacle in a textbook. In the background are library desks and green bankers lamps.",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [16].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, 
+
+		{
+			id: 0,
+			title: "Network",
+			year: 1976,
+			alt: "Board members sit at a long table with pairs of lit green bankers lamps.",
+			src: "/assets/Movies/Network (1976)/Network (1976) [1].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 1,
+			title: "Network",
+			year: 1976,
+			alt: "Frank Hackett (Robert Duvall) speaks in front of red curtains behind several lit green bankers lamps.",
+			src: "/assets/Movies/Network (1976)/Network (1976) [2].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 2,
+			title: "Network",
+			year: 1976,
+			alt: "A board member examines paperwork at a long desk with many lit green bankers lamps.",
+			src: "/assets/Movies/Network (1976)/Network (1976) [3].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 3,
+			title: "Network",
+			year: 1976,
+			alt: "A board member looks down a long desk with many lit green bankers lamps.",
+			src: "/assets/Movies/Network (1976)/Network (1976) [4].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 4,
+			title: "Network",
+			year: 1976,
+			alt: "Howard Beale (Peter Finch) takes a seat at a long table with pairs of green bankers lamps.",
+			src: "/assets/Movies/Network (1976)/Network (1976) [5].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 5,
+			title: "Network",
+			year: 1976,
+			alt: "Howard Beale (Peter Finch) looks down a long table with pairs of green bankers lamps where Arthur Jensen (Ned Beatty) speaks in a spotlight.",
+			src: "/assets/Movies/Network (1976)/Network (1976) [6].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 6,
+			title: "Network",
+			year: 1976,
+			alt: "Arthur Jensen (Ned Beatty) speaks in a spotlight at the end of a long table with several lit green bankers lamps. His arms are spread wide.",
+			src: "/assets/Movies/Network (1976)/Network (1976) [7].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 7,
+			title: "Network",
+			year: 1976,
+			alt: "Arthur Jensen (Ned Beatty) points down across a long table with several lit green bankers lamps.",
+			src: "/assets/Movies/Network (1976)/Network (1976) [8].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 8,
+			title: "Network",
+			year: 1976,
+			alt: "Arthur Jensen (Ned Beatty) slumps his shoulders at the end of a long table with several lit green bankers lamps.",
+			src: "/assets/Movies/Network (1976)/Network (1976) [9].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		},  {
+			id: 9,
+			title: "Network",
+			year: 1976,
+			alt: "In shadow Arthur Jensen's (Ned Beatty) silhouette can be seen behind several lit green bankers lamps.",
+			src: "/assets/Movies/Network (1976)/Network (1976) [10].png",
             medium: "movie",
 			submittedBy: "Kat",
 		}, 
@@ -784,7 +882,6 @@ export const lamps = [
 			alt: "Noir figures in suits and fedoras stand around a black and white bankers lamp.",
 			src: "/assets/Movies/The Thin Man (1934) [1].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -793,7 +890,24 @@ export const lamps = [
 			alt: "A man in shadow speaks into an old camera at a desk lit by a black and white bankers lamp.",
 			src: "/assets/Movies/The Thin Man (1934) [2].png",
             medium: "movie",
-			
+			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
+			title: "There Will Be Blood",
+			year: 2007,
+			alt: "Daniel Plainview (Daniel Day-Lewis) sits in a dark room with an illuminated green bankers lamp.",
+			src: "/assets/Movies/There Will Be Blood (2007) [1].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 1,
+			title: "There Will Be Blood",
+			year: 2007,
+			alt: "Daniel Plainview (Daniel Day-Lewis) smokes a long cigarette. A green bankers lamp can be seen in the background behind the smoke.",
+			src: "/assets/Movies/There Will Be Blood (2007) [2].png",
+            medium: "movie",
 			submittedBy: "Kat",
 		},
 		
@@ -934,6 +1048,39 @@ export const lamps = [
 			season: 1,
 			episode: 1,
 			episodeTitle: "Woo-oo!",
+			submittedBy: "Kat",
+		}, {
+			id: 2,
+			title: "Ducktales",
+			year: 2017,
+			alt: "Scrooge McDuck drags Louie by his collar. A green bankers lamp sits on a desk in the background.",
+			src: "/assets/TV/DuckTales (2017)/DuckTales (2017) S01E04 [1].png",
+            medium: "tv",
+			season: 1,
+			episode: 4,
+			episodeTitle: "The Great Dime Chase!",
+			submittedBy: "Kat",
+		}, {
+			id: 3,
+			title: "Ducktales",
+			year: 2017,
+			alt: "Mail rests at the base of a pneumatic tube in an office with a green bankers lamp on a desk.",
+			src: "/assets/TV/DuckTales (2017)/DuckTales (2017) S01E04 [2].png",
+            medium: "tv",
+			season: 1,
+			episode: 4,
+			episodeTitle: "The Great Dime Chase!",
+			submittedBy: "Kat",
+		}, {
+			id: 4,
+			title: "Ducktales",
+			year: 2017,
+			alt: "Coins shoot out of a pneumatic tube in an office with a green bankers lamp on a desk.",
+			src: "/assets/TV/DuckTales (2017)/DuckTales (2017) S01E04 [3].png",
+            medium: "tv",
+			season: 1,
+			episode: 4,
+			episodeTitle: "The Great Dime Chase!",
 			submittedBy: "Kat",
 		},
 

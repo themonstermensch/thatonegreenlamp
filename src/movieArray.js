@@ -112,6 +112,14 @@ export const movies = [
 		}, 
 
 		{
+			id: 502934710,
+			title: "Hot Fuzz",
+			year: 2007,
+			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/w85INP1cU5NEShNJCFoDBCaaaZ2.jpg",
+            medium: "movie"
+		}, 
+
+		{
 			id: 5234539,
 			title: "Hundreds of Beavers",
 			year: 2022,
@@ -160,6 +168,14 @@ export const movies = [
 		}, 
 
 		{
+			id: 23459872,
+			title: "Magnolia",
+			year: 1999,
+			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/uq2u8HgtLFJkjNq2kHb2jvipIPT.jpg",
+            medium: "movie"
+		},
+
+		{
 			id: 8,
 			title: "Margin Call",
 			year: 2011,
@@ -188,6 +204,14 @@ export const movies = [
 			title: "Monsters University",
 			year: 2013,
 			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/y7thwJ7z5Bplv6vwl6RI0yteaDD.jpg",
+            medium: "movie"
+		},
+
+		{
+			id: 628283405,
+			title: "Network",
+			year: 1976,
+			src: "https://media.themoviedb.org/t/p/w600_and_h900_face/qZomlHsaALUtkFeMDwdYmwS2Pbo.jpg",
             medium: "movie"
 		},
 
@@ -228,6 +252,14 @@ export const movies = [
 			title: "The Thin Man",
 			year: 1934,
 			src: "https://image.tmdb.org/t/p/w1280/6cL89ok9t8xEKboOjOVga2W66jj.jpg",
+            medium: "movie"
+		}, 
+
+		{
+			id: 52304985,
+			title: "There Will Be Blood",
+			year: 2007,
+			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/nuZDiX8okojcwkStdaMjA9LUQAT.jpg",
             medium: "movie"
 		}, 
 
