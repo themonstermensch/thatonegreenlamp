@@ -1,9 +1,25 @@
 export const movies = [
+		{
+			id: 6982927,
+			title: "10 Things I Hate About You",
+			year: 1999,
+			src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FS%2Fpv-target-images%2F256db8c1ad6175062af538bb3185a404a8081762aa61368c1729197aa11b7368.jpg&f=1&nofb=1&ipt=73881e85f9dc8f7adba1f1b5ac4ceb0f73c4eff321214509b394a5c5a56ea6ea&ipo=images",
+            medium: "movie"
+		},
+
         {
 			id: 0,
 			title: "The Adventures of Tintin",
 			year: 2011,
 			src: "https://image.tmdb.org/t/p/original/mKYkNro2btaWMsnYSuyqrBdHQo3.jpg",
+            medium: "movie"
+		},
+
+		{
+			id: 8628274,
+			title: "Booksmart",
+			year: 2019,
+			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/2aSxRDmisJP90H3S0aocyuQIe4z.jpg",
             medium: "movie"
 		},
 
@@ -124,6 +140,14 @@ export const movies = [
 			title: "The Invisible Man",
 			year: 1933,
 			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/a8WoUk92OLHnU5sODmdGaOi5iaH.jpg",
+        	medium: "movie"
+		}, 
+
+		{
+			id: 72038772,
+			title: "Jaws",
+			year: 1975,
+			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
             medium: "movie"
 		}, 
 
@@ -164,6 +188,14 @@ export const movies = [
 			title: "Monsters University",
 			year: 2013,
 			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/y7thwJ7z5Bplv6vwl6RI0yteaDD.jpg",
+            medium: "movie"
+		},
+
+		{
+			id: 6200982345,
+			title: "The Parent Trap",
+			year: 1998,
+			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/dNqgjqxHIdfsQRQL5XTujNfX9pj.jpg",
             medium: "movie"
 		},
 

@@ -1,12 +1,21 @@
 export const lamps = [
+		{
+			id: 0,
+			title: "10 Things I Hate About You",
+			year: 1999,
+			alt: "Cameron (Joseph Gordon-Levitt) and Michael (David Krumholtz) get ready in front of a mirror, behind them in the reflection is a green bankers lamp.",
+			src: "/assets/Movies/10 Things I Hate About You (1999) [1].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		},
+
         {
 			id: 0,
 			title: "The Adventures of Tintin",
 			year: 2011,
-			alt: "The Adventures of Tintin",
+			alt: "A comic drawing of globe with a marked red X, a typewriter, and a green bankers lamp.",
 			src: "/assets/Movies/The Adventures of Tintin (2011) [3].png",
             medium: "movie",
-			author: "A comic drawing of globe with a marked red X, a typewriter, and a green bankers lamp.",
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -15,7 +24,6 @@ export const lamps = [
 			alt: "Tintin looks at a wall with framed newspaper clippings. A green bankers lamp is on the desk behind him.",
 			src: "/assets/Movies/The Adventures of Tintin (2011) [6].png",
             medium: "movie",
-			author: "",
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -24,7 +32,6 @@ export const lamps = [
 			alt: "A figure in a blue suit and fedora looks at Tintin hunched over a desk lit by a tall bankers lamp.",
 			src: "/assets/Movies/The Adventures of Tintin (2011) [21].png",
             medium: "movie",
-			author: "",
 			submittedBy: "Kat",
 		}, {
 			id: 3,
@@ -33,7 +40,49 @@ export const lamps = [
 			alt: "Tintin sits in a library surrounded by tall bankers lamps. Large stained glass windows loom over the scene.",
 			src: "/assets/Movies/The Adventures of Tintin (2011) [24].png",
             medium: "movie",
-			author: "",
+			
+			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
+			title: "Booksmart",
+			year: 2019,
+			alt: "Overhead shot of a library with symmetrical rows of desks lit by green bankers lamps.",
+			src: "/assets/Movies/Booksmart (2019) [1].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 1,
+			title: "Booksmart",
+			year: 2019,
+			alt: "Amy (Kaitlyn Dever) and Molly (Beanie Feldstein) push together two desks with double-shaded green bankers lamps.",
+			src: "/assets/Movies/Booksmart (2019) [2].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 2,
+			title: "Booksmart",
+			year: 2019,
+			alt: "Amy (Kaitlyn Dever) and Molly (Beanie Feldstein) read books at a library desk with a lit double-headed green bankers lamps.",
+			src: "/assets/Movies/Booksmart (2019) [3].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 3,
+			title: "Booksmart",
+			year: 2019,
+			alt: "Amy (Kaitlyn Dever) and Molly (Beanie Feldstein) read books at a library desk with a lit double-headed green bankers lamps.",
+			src: "/assets/Movies/Booksmart (2019) [4].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 4,
+			title: "Booksmart",
+			year: 2019,
+			alt: "Amy (Kaitlyn Dever) looks over Molly's (Beanie Feldstein) shoulder to read beside a lit green bankers lamp.",
+			src: "/assets/Movies/Booksmart (2019) [5].png",
+            medium: "movie",
 			submittedBy: "Kat",
 		},
 
@@ -44,7 +93,7 @@ export const lamps = [
 			alt: "A black and white shot. Wilbur (Lou Costello) lies on an operating table, looking panicked, as the Wolfman (Lon Chaney Jr.) pushes it forward. Behind them is a curved bankers lamp on some machinery.",
 			src: "/assets/Movies/Bud Abbott and Lou Costello Meet Frankenstein (1948) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -55,7 +104,7 @@ export const lamps = [
 			alt: "Eddie (Paul Newman) sits on a barstool next to an open magazine with a green bankers lamp on the page.",
 			src: "/assets/Movies/The Color of Money (1986) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -66,7 +115,7 @@ export const lamps = [
 			alt: "A CRT TV sits in a dark and cluttered room. Kevin (Will Forte) is on TV in a law office with a green bankers lamp.",
 			src: "/assets/Movies/Coyote vs. Acme (2026).png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -77,7 +126,7 @@ export const lamps = [
 			alt: "A silhouette stands alone in a backlit room. A lit green bankers lamp sits on a desk against the wall.",
 			src: "/assets/Movies/The Cycle (2026) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Rhys",
 		},
 
@@ -89,7 +138,7 @@ export const lamps = [
 			alt: "Dominique (Devon Aoki) and Janet (Jill Ritchie) in schoolgirl uniforms with pistols with a bankers lamp between them.",
 			src: "/assets/Movies/D.E.B.S. (2004) [2].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -98,7 +147,7 @@ export const lamps = [
 			alt: "Amy (Sara Foster) looking stunned with some bankers lamps and paperwork behind her.",
 			src: "/assets/Movies/D.E.B.S. (2004) [3].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -107,7 +156,7 @@ export const lamps = [
 			alt: "Amy (Sara Foster) looking ready to kiss Lucy (Jordana Brewster) with a bankers lamp sitting behind her.",
 			src: "/assets/Movies/D.E.B.S. (2004) [4].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -118,7 +167,7 @@ export const lamps = [
 			alt: "Black and white shot of Walter (Fred MacMurray) standing in a doorway, looking back at a desk with a bankers lamp.",
 			src: "/assets/Movies/Double Indemnity (1944) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -127,7 +176,7 @@ export const lamps = [
 			alt: "Black and white shot of Walter (Fred MacMurray) looking worriedly over a messy desk with a bankers lamp in its center.",
 			src: "/assets/Movies/Double Indemnity (1944) [2].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -136,7 +185,7 @@ export const lamps = [
 			alt: "Black and white shot of Walter (Fred MacMurray) sitting at a desk with a bankers lamp. He's very sweaty and holding a phone to his chest.",
 			src: "/assets/Movies/Double Indemnity (1944) [3].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -147,7 +196,7 @@ export const lamps = [
 			alt: "Van Helsing (Edward Van Sloan) lectures Renfield (Dwight Frye) next to a desk with a bankers lamp.",
 			src: "/assets/Movies/Dracula (1931) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -156,7 +205,7 @@ export const lamps = [
 			alt: "Two nurses look concerned at a figure just off-screen. The eyeline makes it look like they're looking at a bankers lamp on the desk beside them.",
 			src: "/assets/Movies/Dracula (1931) [2].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -167,7 +216,7 @@ export const lamps = [
 			alt: "JoAnne Galloway (Demi Moore) stands over a desk with a bankers lamp. Three men in military uniforms sit around in discussion.",
 			src: "/assets/Movies/A Few Good Men (1992) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -176,7 +225,7 @@ export const lamps = [
 			alt: "Cpt West (John M. Jackson) sits a desk looking at JoAnne. A green bankers lamp sits between them.",
 			src: "/assets/Movies/A Few Good Men (1992) [3].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -185,7 +234,7 @@ export const lamps = [
 			alt: "Cpt West (John M. Jackson) stands over a desk with a green bankers lamp looking at two men in military uniforms.",
 			src: "/assets/Movies/A Few Good Men (1992) [7].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -196,7 +245,7 @@ export const lamps = [
 			alt: "Ray Kinsella (Kevin Costner) sits at a library desk looking at something off-screen. A green bankers lamp sits on a filing cabinet in the background.",
 			src: "/assets/Movies/Field of Dreams (1989) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -205,7 +254,7 @@ export const lamps = [
 			alt: "Ray Kinsella (Kevin Costner) sits in a busy library. Everyone sits at desks with green bankers lamps.",
 			src: "/assets/Movies/Field of Dreams (1989) [2].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -214,7 +263,7 @@ export const lamps = [
 			alt: "Ray Kinsella (Kevin Costner) sits pondering at a cluttered desk lit by a green bankers lamp.",
 			src: "/assets/Movies/Field of Dreams (1989) [3].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -225,7 +274,7 @@ export const lamps = [
 			alt: "A black and white shot of Dr. Frankenstein hunches over a cluttered desk lit by a bankers lamp.",
 			src: "/assets/Movies/Frankenstein (1931) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -236,7 +285,7 @@ export const lamps = [
 			alt: "A psychiatrist (Gerry Becker) sits at a desk with both hands gripping the armrests. A green bankers lamp sits in the background.",
 			src: "/assets/Movies/Happiness (1998) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -247,7 +296,7 @@ export const lamps = [
 			alt: "A black and white shot of Jean Kayak (Ryland Brickson Cole Tews) sitting in a courtroom filled with beavers lit only by a bankers lamp. A lawyer, also a beaver, sits next to him nervously dabbing their forehead sweat.",
 			src: "/assets/Movies/Hundreds of Beavers (2022) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -256,7 +305,7 @@ export const lamps = [
 			alt: "Black and white shot. Jean Kayak (Ryland Brickson Cole Tews) sits behind a desk lit by a bankers lamp. His beaver laywer has collapsed on the floor beside him.",
 			src: "/assets/Movies/Hundreds of Beavers (2022) [2].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -265,7 +314,7 @@ export const lamps = [
 			alt: "Black and white shot. Jean Kayak (Ryland Brickson Cole Tews) has a bag placed over his head by two beaver cops and a beaver executioner. A bankers lamp sits in front of them on a desk.",
 			src: "/assets/Movies/Hundreds of Beavers (2022) [3].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -277,7 +326,7 @@ export const lamps = [
 			alt: "John Trent (Sam Neill) clutches the shoulders of Mr. Paul (Peter Jason). Robinson (Bernie Casey) watches from behind a desk with a green bankers lamp.",
 			src: "/assets/Movies/In the Mouth of Madness (1994) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -288,7 +337,7 @@ export const lamps = [
 			alt: "Indiana (Harrison Ford), Marcus (Denholm Elliott), and Elsa (Alison Doody) stare up at a stained glass window. A green bankers lamp rests at the edge of frame.",
 			src: "/assets/Movies/Indiana Jones and the Last Crusade (1989) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},	{
 			id: 1,
@@ -297,7 +346,6 @@ export const lamps = [
 			alt: "A mustachioed old man sits at an old cluttered desk flanked by green bankers lamps.",
 			src: "/assets/Movies/Indiana Jones and the Last Crusade (1989) [2].png",
             medium: "movie",
-			author: "",
 			submittedBy: "Kat",
 		},
 
@@ -308,7 +356,16 @@ export const lamps = [
 			alt: "Black and white shot of an old man man speaking to a police officer inside the station. In the background a bankers lamp can be spotted.",
 			src: "/assets/Movies/The Invisible Man (1933) [2].png",
             medium: "movie",
-			author: "",
+			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
+			title: "Jaws",
+			year: 1975,
+			alt: "Brody (Roy Scheider) and Ellen Brody (Lorraine Gary) look at a book together under the light of a green bankers lamp. A white dog sits behind them.",
+			src: "/assets/Movies/Jaws (1975) [1].png",
+            medium: "movie",
 			submittedBy: "Kat",
 		},
 
@@ -319,7 +376,7 @@ export const lamps = [
 			alt: "Georgia (Queen Latifah) sits in front of a high bank desk with a green bankers lamp on it.",
 			src: "/assets/Movies/Last Holiday (2006) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -328,7 +385,7 @@ export const lamps = [
 			alt: "An unnamed banker speaks to Georgia (Queen Latifah). His desk has a bowl of candy canes and a green bankers lamp.",
 			src: "/assets/Movies/Last Holiday (2006) [2].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -339,7 +396,7 @@ export const lamps = [
 			alt: "A shot of an empty office in the middle of the night. There is a row of screens with charts and graphs next to a green bankers lamp.",
 			src: "/assets/Movies/Margin Call (2011) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -350,7 +407,7 @@ export const lamps = [
 			alt: "Two old sitting at a desk with a green bankers lamp turn around in their seats to look at the camera.",
 			src: "/assets/Movies/Miller's Crossing (1990) [3].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -359,7 +416,7 @@ export const lamps = [
 			alt: "A man in a suit looks out a window next to a desk with a green bankers lamp.",
 			src: "/assets/Movies/Miller's Crossing (1990) [12].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, 
 
@@ -370,7 +427,7 @@ export const lamps = [
 			alt: "A gavel rests on a long court bench next to a green bankers lamp.",
 			src: "/assets/Movies/Mission Impossible Rogue Nation (2015) [9].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -379,7 +436,7 @@ export const lamps = [
 			alt: "Seven government officials sit at a long bench during a hearing with a green bankers lamp between each of them.",
 			src: "/assets/Movies/Mission Impossible Rogue Nation (2015) [10].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -388,7 +445,7 @@ export const lamps = [
 			alt: "A government official speaking into a microphone with multiple green bankers lamps on the desk and other officials beside him.",
 			src: "/assets/Movies/Mission Impossible Rogue Nation (2015) [12].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, 
 
@@ -399,7 +456,7 @@ export const lamps = [
 			alt: "A sleepy yellow monster in a library surrounded by two-headed green bankers lamps",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -408,7 +465,7 @@ export const lamps = [
 			alt: "A red monster paces in a lecture hall beside a brightly lit two-headed bankers lamp",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [2].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -417,7 +474,7 @@ export const lamps = [
 			alt: "A red monster holds up a yellow folder beside a brightly lit two-headed bankers lamp",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [3].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 3,
@@ -426,7 +483,7 @@ export const lamps = [
 			alt: "A red monster looks just off camera beside a brightly lit two-headed bankers lamp. A sinister figure looms in the background.",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [4].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},  {
 			id: 4,
@@ -435,7 +492,7 @@ export const lamps = [
 			alt: "A red monster looks bored beside a brightly lit two-headed bankers lamp. A scream guage is half-filled in the foreground.",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [5].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 5,
@@ -444,7 +501,7 @@ export const lamps = [
 			alt: "A red monster looks startled beside a brightly lit two-headed bankers lamp in a haze of smoke.",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [6].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 6,
@@ -453,7 +510,7 @@ export const lamps = [
 			alt: "Overhead shot of a crowd of monsters looking at a ricocheting scream canister. A red monster sits beside a brightly lit two-headed bankers lamp",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [7].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 7,
@@ -462,7 +519,7 @@ export const lamps = [
 			alt: "Point of view shot from a ricocheting scream canister. A red monster runs away beside a brightly lit two-headed bankers lamp",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [8].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 8,
@@ -471,7 +528,7 @@ export const lamps = [
 			alt: "Mike Wazowski leads a procession of monsters through a library, signaling all of them to follow. Two-headed green bankers lamps adorn the desks.",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [9].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 9,
@@ -480,7 +537,7 @@ export const lamps = [
 			alt: "Sulley looks at a group of monsters in the foreground of a library. Two-headed green bankers lamps adorn the desks.",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [10].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 10,
@@ -489,7 +546,7 @@ export const lamps = [
 			alt: "A tentacled slug librarian rises to a monstrous height. Two-headed green bankers lamps adorn her desk.",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [11].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 11,
@@ -498,7 +555,7 @@ export const lamps = [
 			alt: "Mike Wazowski leads a procession of monsters by tiptoeing through a library. They are surrounded by desks adorned by green bankers lamps.",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [12].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 12,
@@ -507,7 +564,7 @@ export const lamps = [
 			alt: "An unamed group of monsters climb a flight of stairs in the library. Green bankers lamps rest everywhere, including the top of one bookshelf.",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [13].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 13,
@@ -516,7 +573,7 @@ export const lamps = [
 			alt: "Overhead shot of a library filled with monsters and green bankers lamps. Most monsters look to Sully, who is running toward a ladder in the background.",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [14].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 14,
@@ -525,7 +582,7 @@ export const lamps = [
 			alt: "A purple fluffy monster kicks the contents of a desk in a library, narrowly avoiding a green bankers lamp.",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [15].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},  {
 			id: 15,
@@ -534,7 +591,48 @@ export const lamps = [
 			alt: "Mike Wazowski, wearing a Monsters University branded cap, points to a diagram of a tentacle in a textbook. In the background are library desks and green bankers lamps.",
 			src: "/assets/Movies/Monsters University (2013)/Monsters University (2013) [16].png",
             medium: "movie",
-			author: "",
+			submittedBy: "Kat",
+		}, 
+
+		{
+			id: 0,
+			title: "The Parent Trap",
+			year: 1998,
+			alt: "Hallie Parker (Lindsay Lohan), dressed as Annie James (Lindsay Lohan), enters an office where someone sits behind a desk with a green bankers lamp reading a newspaper.",
+			src: "/assets/Movies/The Parent Trap (1998) [1].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 1,
+			title: "The Parent Trap",
+			year: 1998,
+			alt: "A kindly grandfather (Ronnie Stevens) smokes a pipe and holds a newspaper behind a desk with a green bankers lamp.",
+			src: "/assets/Movies/The Parent Trap (1998) [2].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 2,
+			title: "The Parent Trap",
+			year: 1998,
+			alt: "A kindly grandfather (Ronnie Stevens) holds up his glasses behind a desk with a lit green bankers lamp.",
+			src: "/assets/Movies/The Parent Trap (1998) [3].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 3,
+			title: "The Parent Trap",
+			year: 1998,
+			alt: "A kindly grandfather (Ronnie Stevens) spreads his arms wide for a hug. Behind him is a desk with a lit green bankers lamp.",
+			src: "/assets/Movies/The Parent Trap (1998) [4].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 4,
+			title: "The Parent Trap",
+			year: 1998,
+			alt: "A kindly grandfather (Ronnie Stevens) embraces Hallie Parker (Lindsay Lohan) dressed as Annie James (Lindsay Lohan). A lit green bankers lamp can be seen between them.",
+			src: "/assets/Movies/The Parent Trap (1998) [5].png",
+            medium: "movie",
 			submittedBy: "Kat",
 		}, 
 
@@ -545,7 +643,7 @@ export const lamps = [
 			alt: "Herr Kruse (Lars Rudolph), lit by a green bankers lamp, lightly smiles at a figure just off camera",
 			src: "/assets/Movies/Run Lola Run (1998) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -554,7 +652,7 @@ export const lamps = [
 			alt: "Lola (Franka Potente) points a gun at her father (Herbert Knaup) in a bank cage beside a green bankers lamp.",
 			src: "/assets/Movies/Run Lola Run (1998) [2].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -563,7 +661,7 @@ export const lamps = [
 			alt: "A security guard looks at Lola (Franka Potente) inside a bank surrounded by green bankers lamps.",
 			src: "/assets/Movies/Run Lola Run (1998) [3].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 3,
@@ -572,7 +670,7 @@ export const lamps = [
 			alt: "Herr Kruse (Lars Rudolph) stands next to a green bankers lamp looking worried at a figure in the foreground",
 			src: "/assets/Movies/Run Lola Run (1998) [4].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, 
 
@@ -583,7 +681,7 @@ export const lamps = [
 			alt: "Cops playing cards around a green bankers lamp.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [4].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -592,7 +690,7 @@ export const lamps = [
 			alt: "Somerset (Morgan Freeman) walking between desks in a library. Each has a brightly lit green bankers lamp.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [10].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -601,7 +699,7 @@ export const lamps = [
 			alt: "Overhead shot of a library with two brightly lit green bankers lamps on every desk.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [18].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 3,
@@ -610,7 +708,7 @@ export const lamps = [
 			alt: "Dimly lit shot of a library with a brightly lit green bankers lamp lighting up someone's silhouette.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [22].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 4,
@@ -619,7 +717,7 @@ export const lamps = [
 			alt: "Close up of a book being held in a library with brightly lit green bankers lamps in the background.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [26].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 5,
@@ -628,7 +726,7 @@ export const lamps = [
 			alt: "Close up shot of Somerset (Morgan Freeman) reading beside a green bankers lamp. More bankers lamps are out of focus in the background.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [28].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 6,
@@ -637,7 +735,7 @@ export const lamps = [
 			alt: "Overhead shot of Somerset (Morgan Freeman) looking up. He's sitting at one of many desks with two bankers lamps each.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [33].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 7,
@@ -646,7 +744,7 @@ export const lamps = [
 			alt: "Low shot of Somerset (Morgan Freeman) looking up. He's sitting at one of many desks with two bankers lamps each.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [34].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 8,
@@ -655,7 +753,7 @@ export const lamps = [
 			alt: "Moody shot of Somerset (Morgan Freeman) looking down at a copy machine beside a brightly lit green bankers lamp.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [37].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 9,
@@ -664,7 +762,7 @@ export const lamps = [
 			alt: "Mills (Brad Pitt) leans back at a desk, snacking. Two green bankers lamps are right beside him.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [39].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -675,7 +773,7 @@ export const lamps = [
 			alt: "Haru the housekeeper looks solumnly at a jar with a green bankers lamp tucked in the corner.",
 			src: "/assets/Movies/The Secret World of Arrietty (2010) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, 
 
@@ -686,7 +784,7 @@ export const lamps = [
 			alt: "Noir figures in suits and fedoras stand around a black and white bankers lamp.",
 			src: "/assets/Movies/The Thin Man (1934) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -695,7 +793,7 @@ export const lamps = [
 			alt: "A man in shadow speaks into an old camera at a desk lit by a black and white bankers lamp.",
 			src: "/assets/Movies/The Thin Man (1934) [2].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 		
@@ -706,7 +804,7 @@ export const lamps = [
 			alt: "Two nuns play a single accordion behind a desk with a green bankers lamp.",
 			src: "/assets/Movies/Wendell & Wild (2022) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, 
 		
@@ -717,7 +815,7 @@ export const lamps = [
 			alt: "Andrew (Miles Teller) walks through a hallway with uniform green bankers lamp sitting on desks.",
 			src: "/assets/Movies/Whiplash (2014) [1].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -726,7 +824,7 @@ export const lamps = [
 			alt: "Fletcher (JK Simmons) stares at Andrew in the forground. Out-of-focus bankers lamps sit in the background.",
 			src: "/assets/Movies/Whiplash (2014) [3].png",
             medium: "movie",
-			author: "",
+			
 			submittedBy: "Kat",
 		},
 
@@ -1235,6 +1333,17 @@ export const lamps = [
 			season: 1,
 			episode: 6,
 			episodeTitle: "Kodachi, The Black Rose",
+			submittedBy: "Kat",
+		}, {
+			id: 5,
+			title: "Ranma 1⁄2",
+			year: 2024,
+			alt: "A bedroom with a green bankers lamp on a student's desk.",
+			src: "/assets/TV/Ranma 1_2 (2024) S02E06 - The Evil Wakes [1].png",
+            medium: "tv",
+			season: 2,
+			episode: 6,
+			episodeTitle: "The Evil Wakes",
 			submittedBy: "Kat",
 		},
 
