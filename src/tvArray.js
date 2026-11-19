@@ -25,7 +25,7 @@ export const shows = [
 
 		{
 			id: 6363456,
-			title: "Ducktales",
+			title: "DuckTales",
 			year: 2017,
 			src: "https://artworks.thetvdb.com/banners/posters/330134-3.jpg",
             medium: "tv",

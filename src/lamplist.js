@@ -1029,7 +1029,7 @@ export const lamps = [
 
 		{
 			id: 0,
-			title: "Ducktales",
+			title: "DuckTales",
 			year: 2017,
 			alt: "Huey, Dewey, and Louie all weakly pick themselves off the ground as Webby excitedly taps Louie's head. A green bankers lamp rests on a desk behind them.",
 			src: "/assets/TV/DuckTales (2017)/DuckTales (2017) S01E01 Woo-oo! [1].png",
@@ -1040,7 +1040,7 @@ export const lamps = [
 			submittedBy: "Kat",
 		}, {
 			id: 1,
-			title: "Ducktales",
+			title: "DuckTales",
 			year: 2017,
 			alt: "Scrooge McDuck throws a model plane into the air exacerbatedly. A green bankers lamp sists on his desk behind him.",
 			src: "/assets/TV/DuckTales (2017)/DuckTales (2017) S01E01 Woo-oo! [2].png",
@@ -1051,7 +1051,7 @@ export const lamps = [
 			submittedBy: "Kat",
 		}, {
 			id: 2,
-			title: "Ducktales",
+			title: "DuckTales",
 			year: 2017,
 			alt: "Scrooge McDuck drags Louie by his collar. A green bankers lamp sits on a desk in the background.",
 			src: "/assets/TV/DuckTales (2017)/DuckTales (2017) S01E04 [1].png",
@@ -1062,7 +1062,7 @@ export const lamps = [
 			submittedBy: "Kat",
 		}, {
 			id: 3,
-			title: "Ducktales",
+			title: "DuckTales",
 			year: 2017,
 			alt: "Mail rests at the base of a pneumatic tube in an office with a green bankers lamp on a desk.",
 			src: "/assets/TV/DuckTales (2017)/DuckTales (2017) S01E04 [2].png",
@@ -1073,7 +1073,7 @@ export const lamps = [
 			submittedBy: "Kat",
 		}, {
 			id: 4,
-			title: "Ducktales",
+			title: "DuckTales",
 			year: 2017,
 			alt: "Coins shoot out of a pneumatic tube in an office with a green bankers lamp on a desk.",
 			src: "/assets/TV/DuckTales (2017)/DuckTales (2017) S01E04 [3].png",
