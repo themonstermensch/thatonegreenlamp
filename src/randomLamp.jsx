@@ -8,6 +8,7 @@
  import CheckSpecial from "./specialLamps"
 
    function RandomLamp() {
+    console.log("There are this many lamps:", lamps.length)
     var randNum = Math.floor(Math.random() * (lamps.length));
     let chosenLamp = {};
      

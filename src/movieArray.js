@@ -168,6 +168,14 @@ export const movies = [
 		}, 
 
 		{
+			id: 5902345,
+			title: "The Life Aquatic with Steve Zissou",
+			year: 2004,
+			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/qZoFLNBC78jzboWeDH6Ha0qavF2.jpgs",
+            medium: "movie"
+		},
+
+		{
 			id: 23459872,
 			title: "Magnolia",
 			year: 1999,
@@ -246,6 +254,14 @@ export const movies = [
 			src: "https://image.tmdb.org/t/p/original/iFONYHe0NsKZa89V0Qx8fe0rHK3.jpg",
             medium: "movie"
 		}, 
+
+		{
+			id: 23452987,
+			title: "Superman",
+			year: 1978,
+			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/E5Ks3bJRyaWo3uumWdZUFYYjZU.jpg",
+            medium: "movie"
+		}, 
 		
 		{
 			id: 14,
@@ -263,6 +279,13 @@ export const movies = [
             medium: "movie"
 		}, 
 
+		{
+			id: 50928340,
+			title: "To Catch a Thief",
+			year: 1955,
+			src: "https://media.themoviedb.org/t/p/w440_and_h660_face/cbMRkBGBgo3aLJK2M4MyicvkPLQ.jpg",
+            medium: "movie"
+		},
 		
 		{
 			id: 1423452,

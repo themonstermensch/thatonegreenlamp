@@ -392,6 +392,24 @@ export const lamps = [
 
 		{
 			id: 0,
+			title: "The Life Aquatic with Steve Zissou",
+			year: 2004,
+			alt: "A library on a boat. Someone reads in the corner by a lit green bankers lamp.",
+			src: "/assets/Movies/The Life Aquatic with Steve Zissou (2004) [1].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, 	{
+			id: 1,
+			title: "The Life Aquatic with Steve Zissou",
+			year: 2004,
+			alt: "Ned Plimpton (Owen Wilson) and Steve Zissou (Bill Murray) stand next to an intern (Matthew Gray Gubler) reading a magazine by light of a green bankers lamp.",
+			src: "/assets/Movies/The Life Aquatic with Steve Zissou (2004) [2].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		},
+
+		{
+			id: 0,
 			title: "Magnolia",
 			year: 1999,
 			alt: "Stanley Spector (Jeremy Blackman) sits alone in a library with books spread in front of him. A green bankers lamp sits at the edge of the frame.",
@@ -741,7 +759,6 @@ export const lamps = [
 			alt: "Herr Kruse (Lars Rudolph), lit by a green bankers lamp, lightly smiles at a figure just off camera",
 			src: "/assets/Movies/Run Lola Run (1998) [1].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -750,7 +767,6 @@ export const lamps = [
 			alt: "Lola (Franka Potente) points a gun at her father (Herbert Knaup) in a bank cage beside a green bankers lamp.",
 			src: "/assets/Movies/Run Lola Run (1998) [2].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -759,7 +775,6 @@ export const lamps = [
 			alt: "A security guard looks at Lola (Franka Potente) inside a bank surrounded by green bankers lamps.",
 			src: "/assets/Movies/Run Lola Run (1998) [3].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 3,
@@ -768,7 +783,6 @@ export const lamps = [
 			alt: "Herr Kruse (Lars Rudolph) stands next to a green bankers lamp looking worried at a figure in the foreground",
 			src: "/assets/Movies/Run Lola Run (1998) [4].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, 
 
@@ -779,7 +793,6 @@ export const lamps = [
 			alt: "Cops playing cards around a green bankers lamp.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [4].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 1,
@@ -788,7 +801,6 @@ export const lamps = [
 			alt: "Somerset (Morgan Freeman) walking between desks in a library. Each has a brightly lit green bankers lamp.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [10].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 2,
@@ -797,7 +809,6 @@ export const lamps = [
 			alt: "Overhead shot of a library with two brightly lit green bankers lamps on every desk.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [18].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 3,
@@ -806,7 +817,6 @@ export const lamps = [
 			alt: "Dimly lit shot of a library with a brightly lit green bankers lamp lighting up someone's silhouette.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [22].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 4,
@@ -815,7 +825,6 @@ export const lamps = [
 			alt: "Close up of a book being held in a library with brightly lit green bankers lamps in the background.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [26].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 5,
@@ -824,7 +833,6 @@ export const lamps = [
 			alt: "Close up shot of Somerset (Morgan Freeman) reading beside a green bankers lamp. More bankers lamps are out of focus in the background.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [28].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 6,
@@ -833,7 +841,6 @@ export const lamps = [
 			alt: "Overhead shot of Somerset (Morgan Freeman) looking up. He's sitting at one of many desks with two bankers lamps each.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [33].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 7,
@@ -842,7 +849,6 @@ export const lamps = [
 			alt: "Low shot of Somerset (Morgan Freeman) looking up. He's sitting at one of many desks with two bankers lamps each.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [34].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 8,
@@ -851,7 +857,6 @@ export const lamps = [
 			alt: "Moody shot of Somerset (Morgan Freeman) looking down at a copy machine beside a brightly lit green bankers lamp.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [37].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, {
 			id: 9,
@@ -860,7 +865,6 @@ export const lamps = [
 			alt: "Mills (Brad Pitt) leans back at a desk, snacking. Two green bankers lamps are right beside him.",
 			src: "/assets/Movies/Se7en (1995)/Se7en (1995) [39].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		},
 
@@ -871,7 +875,16 @@ export const lamps = [
 			alt: "Haru the housekeeper looks solumnly at a jar with a green bankers lamp tucked in the corner.",
 			src: "/assets/Movies/The Secret World of Arrietty (2010) [1].png",
             medium: "movie",
-			
+			submittedBy: "Kat",
+		}, 
+
+		{
+			id: 0,
+			title: "Superman",
+			year: 1978,
+			alt: "A prison warden (Roy Stevens) sits at his desk reading a document by the light of a green bankers lamp.",
+			src: "/assets/Movies/Superman (1978) [1].png",
+            medium: "movie",
 			submittedBy: "Kat",
 		}, 
 
@@ -910,6 +923,48 @@ export const lamps = [
             medium: "movie",
 			submittedBy: "Kat",
 		},
+
+		{
+			id: 0,
+			title: "To Catch a Thief",
+			year: 1955,
+			alt: "Commissaire Lepic (René Blancard) sits behind a desk with a green bankers lamp looking up at H. H. Hughson (John Williams) beside him.",
+			src: "/assets/Movies/To Catch a Thief (1955) [1].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 1,
+			title: "To Catch a Thief",
+			year: 1955,
+			alt: "Commissaire Lepic (René Blancard) and H. H. Hughson (John Williams) look across a desk with a green bankers lamp.",
+			src: "/assets/Movies/To Catch a Thief (1955) [2].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 2,
+			title: "To Catch a Thief",
+			year: 1955,
+			alt: "John Robie (Cary Grant) speaks from a chair. A green bankers lamp sits on a desk in the foreground.",
+			src: "/assets/Movies/To Catch a Thief (1955) [3].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 3,
+			title: "To Catch a Thief",
+			year: 1955,
+			alt: "John Robie (Cary Grant) speaks to H. H. Hughson (John Williams). A green bankers lamp can be seen in another room behind them.",
+			src: "/assets/Movies/To Catch a Thief (1955) [4].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, {
+			id: 4,
+			title: "To Catch a Thief",
+			year: 1955,
+			alt: "Commissaire Lepic (René Blancard) looks at H. H. Hughson (John Williams) from across a desk with a green bankers lamp and points at a newspaper.",
+			src: "/assets/Movies/To Catch a Thief (1955) [5].png",
+            medium: "movie",
+			submittedBy: "Kat",
+		}, 
 		
 		{
 			id: 0,
@@ -918,7 +973,6 @@ export const lamps = [
 			alt: "Two nuns play a single accordion behind a desk with a green bankers lamp.",
 			src: "/assets/Movies/Wendell & Wild (2022) [1].png",
             medium: "movie",
-			
 			submittedBy: "Kat",
 		}, 
 		
